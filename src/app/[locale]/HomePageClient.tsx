@@ -85,7 +85,7 @@ export default function HomePageClient({
 }: HomePageClientProps) {
   const t = useMessages() as any;
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.lucidblocks.wiki";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.giantsimulatorrebornwiki.wiki";
 
   // Structured data
   const structuredData = {
@@ -95,15 +95,15 @@ export default function HomePageClient({
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: "Lucid Blocks Wiki",
+        name: "Giant Simulator Reborn Wiki",
         description:
-          "Complete Lucid Blocks Wiki covering crafting, biomes, creatures, items, achievements, lore, and survival tips for the surreal voxel sandbox on Steam.",
+          "Complete Giant Simulator Reborn Wiki covering codes, pets, rebirth, gear, bosses, gold farming, events, and beginner routes for the Roblox giant growth simulator.",
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks - Surreal Voxel Survival Sandbox",
+          caption: "Giant Simulator Reborn - Roblox Giant Growth Simulator",
         },
         potentialAction: {
           "@type": "SearchAction",
@@ -114,11 +114,11 @@ export default function HomePageClient({
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: "Lucid Blocks Wiki",
-        alternateName: "Lucid Blocks",
+        name: "Giant Simulator Reborn Wiki",
+        alternateName: "Giant Simulator Reborn",
         url: siteUrl,
         description:
-          "Complete Lucid Blocks Wiki resource hub for crafting, biomes, creatures, items, achievements, and survival guides",
+          "Complete Giant Simulator Reborn Wiki resource hub for codes, pets, rebirth, gear, bosses, and farming guides",
         logo: {
           "@type": "ImageObject",
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -130,30 +130,31 @@ export default function HomePageClient({
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          caption: "Lucid Blocks Wiki - Surreal Voxel Survival Sandbox",
+          caption: "Giant Simulator Reborn Wiki - Roblox Giant Growth Simulator",
         },
         sameAs: [
-          "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
-          "https://discord.com/invite/lucidblocks",
-          "https://www.reddit.com/r/LucidBlocks/",
-          "https://www.youtube.com/@lucy_b_locks",
+          "https://www.roblox.com/games/12645083079/Giant-Simulator-REBORN",
+          "https://discord.com/invite/f7eMMSjBbh",
+          "https://x.com/MithrilGames",
+          "https://www.youtube.com/watch?v=UwsyBvLdIj4",
         ],
       },
       {
         "@type": "VideoGame",
-        name: "Lucid Blocks",
-        gamePlatform: ["PC", "Steam"],
+        name: "Giant Simulator Reborn",
+        gamePlatform: ["Roblox"],
         applicationCategory: "Game",
-        genre: ["Survival", "Sandbox", "Adventure", "Psychedelic"],
+        genre: ["Simulation", "Adventure", "Clicker", "RPG"],
         numberOfPlayers: {
           minValue: 1,
           maxValue: 1,
         },
         offers: {
           "@type": "Offer",
+          price: "0",
           priceCurrency: "USD",
           availability: "https://schema.org/InStock",
-          url: "https://store.steampowered.com/app/3495730/Lucid_Blocks/",
+          url: "https://www.roblox.com/games/12645083079/Giant-Simulator-REBORN",
         },
       },
       {
@@ -247,14 +248,14 @@ export default function HomePageClient({
                 {t.hero.getFreeCodesCTA}
               </button>
               <a
-                href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                href="https://www.roblox.com/games/12645083079/Giant-Simulator-REBORN"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 md:px-8 md:py-4
                            border border-border hover:bg-white/10 rounded-lg
                            font-semibold text-base md:text-lg transition-colors"
               >
-                {t.hero.playOnSteamCTA}
+                {t.hero.playOnRobloxCTA}
                 <ArrowRight className="w-5 h-5" />
               </a>
             </div>
@@ -1325,7 +1326,7 @@ export default function HomePageClient({
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href="https://discord.com/invite/f7eMMSjBbh"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
@@ -1334,12 +1335,12 @@ export default function HomePageClient({
                     <ExternalLink className="w-3 h-3" />
                   </a>
                   <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                    href="https://www.roblox.com/games/12645083079/Giant-Simulator-REBORN"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"
                   >
-                    Steam Community <ExternalLink className="w-3 h-3" />
+                    Roblox Community <ExternalLink className="w-3 h-3" />
                   </a>
                 </div>
               </div>
@@ -1400,7 +1401,7 @@ export default function HomePageClient({
               <ul className="space-y-2 text-sm">
                 <li>
                   <a
-                    href="https://discord.com/invite/lucidblocks"
+                    href="https://discord.com/invite/f7eMMSjBbh"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1410,7 +1411,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://x.com/lucidblocks"
+                    href="https://x.com/MithrilGames"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1420,7 +1421,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://steamcommunity.com/app/3495730"
+                    href="https://www.youtube.com/watch?v=UwsyBvLdIj4"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"
@@ -1430,7 +1431,7 @@ export default function HomePageClient({
                 </li>
                 <li>
                   <a
-                    href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+                    href="https://www.roblox.com/games/12645083079/Giant-Simulator-REBORN"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-[hsl(var(--nav-theme-light))] transition"

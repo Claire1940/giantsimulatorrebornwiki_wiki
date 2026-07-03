@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Giant Simulator Reborn Wiki - Codes, Pets & Rebirth",
+      "description": "Giant Simulator Reborn Wiki covers codes, pets, rebirth, gear, bosses, gold farming, event rewards, and beginner routes for Roblox players in one hub.",
+      "keywords": "giant simulator reborn, roblox, codes, pets, rebirth, gear, bosses, gold",
+      "ogTitle": "Giant Simulator Reborn Wiki - Codes, Pets & Rebirth",
+      "ogDescription": "Giant Simulator Reborn Wiki covers codes, pets, rebirth, gear, bosses, gold farming, event rewards, and beginner routes for Roblox players in one hub.",
+      "twitterTitle": "Giant Simulator Reborn Wiki - Codes, Pets & Rebirth",
+      "twitterDescription": "Giant Simulator Reborn Wiki covers codes, pets, rebirth, gear, bosses, and gold farming for Roblox players."
     }
   },
   "nav": {
@@ -34,27 +34,28 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Competitive Roblox Giant Growth Simulator",
+    "title": "Giant Simulator Reborn Wiki",
+    "description": "Click to gain XP, grow into a massive giant, unlock weapons and armor, hatch pets, rebirth for stronger scaling, and climb Roblox leaderboards.",
+    "keywords": "Giant Simulator Reborn, Roblox, codes, pets, rebirth, gold, weapons, armor, bosses",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "2.89M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "4,054",
+        "label": "Players Online"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "88.8%",
+        "label": "User Rating"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "2 days ago",
+        "label": "Last Updated"
       }
     }
   },
@@ -785,26 +786,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Grow the Biggest Giant?",
+    "description": "Join the Mithril Games community on Discord for codes, updates, events, and Giant Simulator Reborn discussions!",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Giant Simulator Reborn Wiki",
+    "description": "Your complete resource hub for Giant Simulator Reborn codes, pets, rebirth, gear, bosses, and farming guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "steamCommunity": "YouTube",
+    "steamStore": "Play on Roblox",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Giant Simulator Reborn Wiki. Not affiliated with Mithril Games.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
