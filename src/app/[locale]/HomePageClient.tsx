@@ -1088,7 +1088,7 @@ export default function HomePageClient({
                     rel="noopener noreferrer"
                     className="text-muted-foreground transition hover:text-[hsl(var(--nav-theme-light))]"
                   >
-                    {t.footer.steamCommunity}
+                    {t.footer.youtube}
                   </a>
                 </li>
                 <li>
@@ -1098,7 +1098,7 @@ export default function HomePageClient({
                     rel="noopener noreferrer"
                     className="text-muted-foreground transition hover:text-[hsl(var(--nav-theme-light))]"
                   >
-                    {t.footer.steamStore}
+                    {t.footer.roblox}
                   </a>
                 </li>
               </ul>

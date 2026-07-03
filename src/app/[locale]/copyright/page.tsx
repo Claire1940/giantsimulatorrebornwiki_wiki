@@ -35,9 +35,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: 'Copyright and intellectual property information for Giant Simulator Reborn Wiki.',
       images: [
         {
-          url: `${siteUrl}/og-image.jpg`,
-          width: 1200,
-          height: 630,
+          url: `${siteUrl}/images/hero.webp`,
+          width: 840,
+          height: 540,
           alt: 'Giant Simulator Reborn Wiki',
         },
       ],
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title: 'Copyright Notice - Giant Simulator Reborn Wiki',
       description: 'Copyright and intellectual property information.',
-      images: [`${siteUrl}/og-image.jpg`],
+      images: [`${siteUrl}/images/hero.webp`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
   }
@@ -91,7 +91,7 @@ export default function Copyright() {
               endorsed by, or associated with:
             </p>
             <ul>
-              <li><strong>Steam</strong> - Owner of the Steam platform</li>
+              <li><strong>Roblox Corporation</strong> - Operator of the Roblox platform</li>
               <li><strong>Giant Simulator Reborn Developers</strong> - Creators of the Giant Simulator Reborn game</li>
             </ul>
             <p>
@@ -152,7 +152,7 @@ export default function Copyright() {
               The following trademarks and service marks are the property of their respective owners:
             </p>
             <ul>
-              <li><strong>STEAM</strong> - Trademark of Valve Corporation</li>
+              <li><strong>ROBLOX</strong> - Trademark of Roblox Corporation</li>
               <li><strong>Giant Simulator Reborn</strong> - Trademark of the game developers</li>
               <li><strong>Giant Simulator Reborn Wiki</strong> - Our own branding (not affiliated with the game)</li>
             </ul>

@@ -13,8 +13,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const path = '/about'
 
   return {
-    title: 'About Giant Simulator Reborn Wiki - Your Ultimate Steam Game Resource',
-    description: 'Learn about Giant Simulator Reborn Wiki, a community-driven resource hub providing comprehensive guides, crafting tips, creature info, and strategies for the Giant Simulator Reborn Steam game.',
+    title: 'About Giant Simulator Reborn Wiki - Your Ultimate Roblox Game Resource',
+    description: 'Learn about Giant Simulator Reborn Wiki, a community-driven resource hub providing codes, pet tier lists, rebirth routes, leveling and gold farming guides for the Giant Simulator Reborn Roblox game.',
     robots: {
       index: false,
       follow: true,
@@ -35,9 +35,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: 'Learn about our mission to provide the best Giant Simulator Reborn game resources and guides.',
       images: [
         {
-          url: `${siteUrl}/og-image.jpg`,
-          width: 1200,
-          height: 630,
+          url: `${siteUrl}/images/hero.webp`,
+          width: 840,
+          height: 540,
           alt: 'Giant Simulator Reborn Wiki',
         },
       ],
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title: 'About Giant Simulator Reborn Wiki',
       description: 'Learn about our mission to provide the best Giant Simulator Reborn game resources.',
-      images: [`${siteUrl}/og-image.jpg`],
+      images: [`${siteUrl}/images/hero.webp`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
   }
@@ -74,11 +74,11 @@ export default function About() {
             <h2>Welcome to Giant Simulator Reborn Wiki</h2>
             <p>
               Giant Simulator Reborn Wiki is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
-              master the Steam game "Giant Simulator Reborn". We are a community-driven platform that provides comprehensive guides,
-              crafting tips, biome information, creature details, and strategic insights to enhance your gaming experience.
+              master the Roblox game &quot;Giant Simulator: REBORN&quot;. We are a community-driven platform that provides comprehensive guides,
+              working codes, pet tier lists, rebirth strategies, leveling routes, and gold farming tips to enhance your gaming experience.
             </p>
             <p>
-              Whether you're a new player just starting your survival journey or a seasoned veteran looking to optimize your strategies,
+              Whether you&apos;re a new player just starting your growth journey or a seasoned veteran looking to optimize your rebirth loops,
               Giant Simulator Reborn Wiki is here to support you every step of the way.
             </p>
           </div>
@@ -95,8 +95,8 @@ export default function About() {
               and powerful tools</strong> that help them succeed in the game. We strive to:
             </p>
             <ul>
-              <li><strong>Provide reliable information:</strong> Keep our content updated with the latest game changes, new items, and balance updates</li>
-              <li><strong>Build useful tools:</strong> Develop guides, crafting calculators, and planners that help players make informed decisions</li>
+              <li><strong>Provide reliable information:</strong> Keep our content updated with the latest codes, pet stats, rebirth changes, and balance updates</li>
+              <li><strong>Build useful tools:</strong> Develop tier lists, progression planners, and farming route guides that help players make informed decisions</li>
               <li><strong>Foster community:</strong> Create a welcoming space where players can learn, share strategies, and grow together</li>
               <li><strong>Stay accessible:</strong> Keep all resources free and easy to use for players of all skill levels</li>
             </ul>
@@ -105,7 +105,7 @@ export default function About() {
             <p>
               We envision Giant Simulator Reborn Wiki as the <strong>go-to destination</strong> for every Giant Simulator Reborn player seeking
               to improve their gameplay. We want to be the resource that players trust and rely on, whether they need
-              crafting guides, want to explore new biomes, or are looking for advanced survival tactics.
+              the latest codes, want to compare pets, or are looking for the most efficient rebirth and farming routes.
             </p>
           </div>
         </div>
@@ -118,51 +118,51 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-6">
             {/* Feature Card 1 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🔨</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Crafting Guides</h3>
+              <div className="text-2xl mb-3">🎟️</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Working Codes</h3>
               <p className="text-slate-300">
-                Comprehensive crafting recipes and Apotheosis fusion guides to help you create powerful items.
-                Master the art of item synthesis!
+                A regularly updated list of active codes for free XP boosts, gold, and exclusive rewards.
+                Redeem them fast before they expire!
               </p>
             </div>
 
             {/* Feature Card 2 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🌍</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Biome Information</h3>
+              <div className="text-2xl mb-3">🐾</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Pets & Tier Lists</h3>
               <p className="text-slate-300">
-                Detailed guides on all biomes, their unique features, resources, and dangers.
-                Explore every corner of the surreal world safely.
+                Detailed pet stats, abilities, and ranked tier lists so you know which companions give the best
+                XP and gold multipliers for your build.
               </p>
             </div>
 
             {/* Feature Card 3 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🦋</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Creature Database</h3>
+              <div className="text-2xl mb-3">♾️</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Rebirth & Soul Gems</h3>
               <p className="text-slate-300">
-                Complete information on all creatures, their behaviors, drops, and how to deal with them.
-                Know your friends from your foes.
+                Step-by-step rebirth routes and Soul Gem strategies that explain when to reset, what to unlock,
+                and how to stack permanent bonuses.
               </p>
             </div>
 
             {/* Feature Card 4 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">🎯</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Achievement Guides</h3>
+              <div className="text-2xl mb-3">📈</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Leveling & Gold Farming</h3>
               <p className="text-slate-300">
-                Step-by-step guides to unlock all 19 achievements in the game.
-                Complete your collection with our detailed walkthroughs.
+                Efficient leveling spots, gold farming loops, and gear upgrade paths that help you grow larger
+                and stronger as fast as possible.
               </p>
             </div>
 
             {/* Feature Card 5 */}
             <div className="p-6 rounded-xl bg-slate-900/50 border border-slate-800">
-              <div className="text-2xl mb-3">📚</div>
-              <h3 className="text-xl font-semibold text-white mb-2">Survival Strategies</h3>
+              <div className="text-2xl mb-3">⚔️</div>
+              <h3 className="text-xl font-semibold text-white mb-2">Bosses, PvP & Locations</h3>
               <p className="text-slate-300">
-                Essential survival tips, building strategies, and exploration guides.
-                Learn how to thrive in the surreal sandbox world.
+                Boss fight tactics, PvP loadouts, and a complete zone-by-zone location guide covering every area,
+                its drops, and recommended power level.
               </p>
             </div>
 
@@ -171,8 +171,8 @@ export default function About() {
               <div className="text-2xl mb-3">🌍</div>
               <h3 className="text-xl font-semibold text-white mb-2">Multilingual Support</h3>
               <p className="text-slate-300">
-                Content available in multiple languages including English, Russian, Portuguese,
-                German, Spanish, Japanese, Korean, and French.
+                Content available in multiple languages including English, Portuguese, Spanish,
+                and French.
               </p>
             </div>
           </div>
@@ -191,12 +191,12 @@ export default function About() {
             <ul>
               <li><strong>Player feedback:</strong> Your suggestions help us improve and expand our resources</li>
               <li><strong>Community discoveries:</strong> New strategies, hidden mechanics, and pro tips shared by players</li>
-              <li><strong>Game updates:</strong> We monitor official updates and adjust our content accordingly</li>
-              <li><strong>Meta shifts:</strong> We track gameplay trends and update guides based on real player experiences</li>
+              <li><strong>Game updates:</strong> We monitor official Mithril Games updates and adjust our content accordingly</li>
+              <li><strong>Meta shifts:</strong> We track gameplay trends and update tier lists based on real player experiences</li>
             </ul>
             <p>
-              <strong>Want to contribute?</strong> Whether you've discovered a new crafting recipe, found a hidden biome,
-              or have suggestions for new guides, we'd love to hear from you! Reach out through our contact channels below.
+              <strong>Want to contribute?</strong> Whether you&apos;ve found a new code, discovered a faster farming route,
+              or have suggestions for new guides, we&apos;d love to hear from you! Reach out through our contact channels below.
             </p>
           </div>
         </div>
@@ -209,7 +209,7 @@ export default function About() {
             <h2>About the Team</h2>
             <p>
               Giant Simulator Reborn Wiki is maintained by a dedicated team of passionate gamers and developers who love
-              Giant Simulator Reborn as much as you do. We're players first, constantly testing strategies, exploring game
+              Giant Simulator Reborn as much as you do. We&apos;re players first, constantly testing strategies, exploring game
               mechanics, and staying updated with the latest discoveries.
             </p>
             <p>
@@ -222,7 +222,7 @@ export default function About() {
               <li><strong>Community management:</strong> Listening to player feedback and fostering a positive environment</li>
             </ul>
             <p className="text-slate-400 italic text-sm">
-              Project Codename: "Dreamscape" – Navigating the surreal together.
+              Project Codename: &quot;Titan Growth&quot; – Growing larger, together.
             </p>
           </div>
         </div>
@@ -235,7 +235,7 @@ export default function About() {
             <h2>Important Disclaimer</h2>
             <p className="text-yellow-400/90">
               <strong>Giant Simulator Reborn Wiki is an unofficial fan-made website.</strong> We are NOT affiliated with,
-              endorsed by, or associated with the developers of Giant Simulator Reborn or any official entities.
+              endorsed by, or associated with Roblox Corporation, Mithril Games, or any official entities.
             </p>
             <p>
               All game content, trademarks, characters, and assets are the property of their respective owners.
@@ -254,7 +254,7 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>Get in Touch</h2>
             <p>
-              We'd love to hear from you! Whether you have questions, suggestions, found a bug, or just want to say hi:
+              We&apos;d love to hear from you! Whether you have questions, suggestions, found a bug, or just want to say hi:
             </p>
             <div className="not-prose grid md:grid-cols-2 gap-4 my-6">
               <div className="p-4 rounded-lg bg-slate-900/50 border border-slate-800">

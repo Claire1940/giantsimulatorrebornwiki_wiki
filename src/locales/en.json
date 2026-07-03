@@ -700,14 +700,14 @@
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "YouTube",
-    "steamStore": "Play on Roblox",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
     "copyright": "© 2026 Giant Simulator Reborn Wiki. Not affiliated with Mithril Games.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "disclaimer": "Unofficial fan-made resource website.",
+    "youtube": "YouTube",
+    "roblox": "Play on Roblox"
   },
   "pages": {
     "codes": {

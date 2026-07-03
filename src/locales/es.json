@@ -1,12 +1,874 @@
 {
+  "seo": {
+    "home": {
+      "title": "Giant Simulator Reborn Wiki - Códigos, Mascotas y Rebirth",
+      "description": "Giant Simulator Reborn Wiki cubre códigos, mascotas, rebirth, equipamiento, jefes, farmeo de oro, recompensas de eventos y rutas para principiantes para jugadores de Roblox en un solo centro.",
+      "keywords": "giant simulator reborn, roblox, códigos, mascotas, rebirth, equipamiento, jefes, oro",
+      "ogTitle": "Giant Simulator Reborn Wiki - Códigos, Mascotas y Rebirth",
+      "ogDescription": "Giant Simulator Reborn Wiki cubre códigos, mascotas, rebirth, equipamiento, jefes, farmeo de oro, recompensas de eventos y rutas para principiantes para jugadores de Roblox en un solo centro.",
+      "twitterTitle": "Giant Simulator Reborn Wiki - Códigos, Mascotas y Rebirth",
+      "twitterDescription": "Giant Simulator Reborn Wiki cubre códigos, mascotas, rebirth, jefes y farmeo de oro para jugadores de Roblox."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "guide": "Guía",
-    "rebirth": "Renacimiento",
-    "leveling": "Niveles",
-    "farming": "Granja",
+    "rebirth": "Rebirth",
+    "leveling": "Subir de nivel",
+    "farming": "Farmeo",
     "event": "Evento",
     "pets": "Mascotas",
     "locations": "Ubicaciones"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Simulador competitivo de crecimiento de gigantes en Roblox",
+    "title": "Giant Simulator Reborn Wiki",
+    "description": "Haz clic para obtener XP, convertirte en un gigante enorme, desbloquear armas y armaduras, eclosionar mascotas, hacer rebirth para un escalado más fuerte y subir en las tablas de clasificación de Roblox.",
+    "keywords": "Giant Simulator Reborn, Roblox, códigos, mascotas, rebirth, oro, armas, armaduras, jefes",
+    "getFreeCodesCTA": "Obtener códigos gratis",
+    "playOnRobloxCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "2.89M+",
+        "label": "Visitas totales"
+      },
+      "stat2": {
+        "value": "4.054",
+        "label": "Jugadores en línea"
+      },
+      "stat3": {
+        "value": "88,8%",
+        "label": "Calificación de usuarios"
+      },
+      "stat4": {
+        "value": "hace 2 días",
+        "label": "Última actualización"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Giant Simulator Reborn",
+    "description": "Haz clic para ganar XP, conviértete en un gigante masivo, desbloquea armas y armaduras, eclosiona mascotas, realiza rebirth para un escalado más fuerte y sube en las tablas de clasificación de Roblox en este simulador de crecimiento gigante."
+  },
+  "tools": {
+    "title": "Giant Simulator Reborn",
+    "titleHighlight": "Recursos",
+    "subtitle": "Códigos, rutas para principiantes, subida de nivel, farmeo de Gold y mascotas: tu kit de herramientas principal de Giant Simulator Reborn.",
+    "cards": [
+      {
+        "icon": "Gift",
+        "title": "Códigos de Giant Simulator Reborn",
+        "description": "Códigos activos, recompensas de Gold gratis y pasos para canjear"
+      },
+      {
+        "icon": "Compass",
+        "title": "Guía para principiantes",
+        "description": "Bucle de crecimiento de la primera hora: clic, equipo, eclosión y combate"
+      },
+      {
+        "icon": "Coins",
+        "title": "Subida de nivel y farmeo de Gold",
+        "description": "Rutas rápidas de XP y una prioridad clara de gasto de Gold"
+      },
+      {
+        "icon": "PawPrint",
+        "title": "Guía de Mascotas",
+        "description": "Eclosiona, colecciona, mejora y combina mascotas con tu build"
+      },
+      {
+        "icon": "Gem",
+        "title": "Rebirth y Soul Gems",
+        "description": "Cuándo reiniciar, cómo gastar Soul Gems y el bucle de recuperación"
+      },
+      {
+        "icon": "Crown",
+        "title": "Tier List de Armas, Equipo y Mascotas",
+        "description": "Mejores armas, armaduras, mascotas y artefactos por etapa de progreso"
+      },
+      {
+        "icon": "Swords",
+        "title": "Jefes, Misiones y PvP",
+        "description": "Rutas de combate, prioridad de jefes, rutas de misiones y supervivencia en PvP"
+      },
+      {
+        "icon": "CalendarDays",
+        "title": "Eventos y enlaces oficiales",
+        "description": "Actualizaciones, Discord, X y enlaces oficiales de Giant Simulator Reborn"
+      }
+    ]
+  },
+  "modules": {
+    "codes": {
+      "eyebrow": "Gold gratis",
+      "title": "Códigos de Giant Simulator Reborn",
+      "subtitle": "Canjea códigos activos de Giant Simulator Reborn por Gold gratis, luego gástalo en equipo más fuerte, armas, cajas de botín y progresión inicial.",
+      "intro": "Los códigos de Giant Simulator Reborn otorgan a los jugadores un impulso rápido de Gold antes de que comience el bucle de entrenamiento normal. Usa primero las recompensas de Gold más grandes, luego ingresa cada código a través del botón del pájaro blanco dentro de la experiencia de Roblox.",
+      "items": [
+        {
+          "type": "active-code",
+          "code": "Demonking",
+          "reward": "20,000 Gold",
+          "note": "El mejor primer canje porque otorga la mayor recompensa de Gold listada."
+        },
+        {
+          "type": "active-code",
+          "code": "Mascotas",
+          "reward": "10,000 de Oro",
+          "note": "Útil para el equipamiento inicial, cajas de botín y progresión centrada en mascotas."
+        },
+        {
+          "type": "active-code",
+          "code": "Gianttofuu",
+          "reward": "10,000 de Oro",
+          "note": "Un fuerte código de inicio para mejoras iniciales más rápidas."
+        },
+        {
+          "type": "active-code",
+          "code": "Razorfishpets",
+          "reward": "5,000 de Oro",
+          "note": "Buena recompensa de oro mediana para crear tu primer fondo de mejoras."
+        },
+        {
+          "type": "active-code",
+          "code": "Azadpets",
+          "reward": "2,500 de Oro",
+          "note": "Añade oro adicional para las primeras decisiones de gasto."
+        },
+        {
+          "type": "active-code",
+          "code": "Planetmilopets",
+          "reward": "2,500 de Oro",
+          "note": "Útil al acumular todas las recompensas iniciales antes de farmear."
+        },
+        {
+          "type": "active-code",
+          "code": "Freegold",
+          "reward": "1 de Oro",
+          "note": "Un código de bonificación diminuto, que vale la pena canjear principalmente al completar la lista completa."
+        },
+        {
+          "type": "summary-card",
+          "title": "Valor total de códigos activos",
+          "value": "50,001 de Oro",
+          "note": "Canjear cada código de oro activo otorga un gran impulso inicial antes del entrenamiento, las mejoras de equipamiento y la eclosión de mascotas."
+        },
+        {
+          "type": "expired-code-group",
+          "title": "Códigos expirados",
+          "codes": [
+            "Launch",
+            "Battle",
+            "intelplayz",
+            "arena",
+            "miannn",
+            "robzi",
+            "russoplays",
+            "legend",
+            "gravycatman",
+            "Tofuu",
+            "Rebirth",
+            "TenMillion",
+            "NewYear",
+            "Boss",
+            "Valentine",
+            "Balance",
+            "StPatrick",
+            "Clover2020",
+            "SoulFarm",
+            "thank you",
+            "Snowflakes",
+            "GiantNewYear",
+            "Xbox",
+            "Easter2021",
+            "Evolution",
+            "Halloween"
+          ]
+        },
+        {
+          "type": "redeem-step",
+          "step": 1,
+          "title": "Inicia la experiencia de Roblox",
+          "text": "Abre Giant Simulator: REBORN desde su página de juego de Roblox."
+        },
+        {
+          "type": "redeem-step",
+          "step": 2,
+          "title": "Presiona el botón del pájaro blanco",
+          "text": "Usa el icono del pájaro en el lado derecho de la pantalla para abrir la casilla de códigos."
+        },
+        {
+          "type": "redeem-step",
+          "step": 3,
+          "title": "Introduce el código",
+          "text": "Pega un código en el cuadro de texto exactamente como está escrito."
+        },
+        {
+          "type": "redeem-step",
+          "step": 4,
+          "title": "Presiona Enter",
+          "text": "Envía el código para reclamar la recompensa de Oro."
+        }
+      ]
+    },
+    "beginnerGuide": {
+      "eyebrow": "Empieza aquí",
+      "title": "Guía para principiantes de Giant Simulator Reborn",
+      "subtitle": "Aprende el ciclo básico: haz clic para obtener XP, crece más, desbloquea mejor equipamiento, eclosiona mascotas, lucha contra rivales y prepárate para el renacimiento.",
+      "intro": "Giant Simulator Reborn está diseñado en torno a un crecimiento repetitivo simple. Tu primer objetivo es convertir los clics en XP, la XP en tamaño, el Oro en mejoras, las mascotas en un progreso más rápido y el renacimiento en una progresión a largo plazo más fuerte.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Haz clic para ganar XP",
+          "goal": "Empieza a crecer de inmediato.",
+          "action": "Haz clic para ganar XP y aumentar tu tamaño de gigante.",
+          "result": "Tu personaje se vuelve más grande y comienza a avanzar a través del ciclo de progresión principal."
+        },
+        {
+          "step": 2,
+          "title": "Canjea códigos de inicio",
+          "goal": "Recoge Oro gratis antes de pasar tiempo farmeando.",
+          "action": "Usa la lista de códigos activos y reclama primero las recompensas de Oro más altas.",
+          "result": "Puedes comenzar con un mayor presupuesto para mejoras en lugar de grindear desde cero."
+        },
+        {
+          "step": 3,
+          "title": "Mejora armas y armaduras",
+          "goal": "Mejora la ganancia de XP, el daño y la fuerza de combate.",
+          "action": "Gasta Oro en mejor equipamiento y armas tan pronto como las mejoras sean significativas.",
+          "result": "Tus clics, rendimiento en combate y velocidad de crecimiento mejoran juntos."
+        },
+        {
+          "step": 4,
+          "title": "Abre cajas de botín",
+          "goal": "Desbloquea herramientas de progresión más fuertes.",
+          "action": "Usa Oro para abrir cajas de botín y obtener armas, skins y potenciadores estilo compañero.",
+          "result": "Un mejor botín otorga multiplicadores más fuertes y facilita el farmeo futuro."
+        },
+        {
+          "step": 5,
+          "title": "Eclosiona y mejora mascotas",
+          "goal": "Añade el crecimiento de mascotas a tu ciclo principal de progresión.",
+          "action": "Eclosiona mascotas, colecciona mejores compañeros y sigue mejorando las mascotas que usas.",
+          "result": "Las mascotas crecen contigo y apoyan un progreso más rápido a largo plazo."
+        },
+        {
+          "step": 6,
+          "title": "Lucha contra rivales",
+          "goal": "Pon a prueba tu tamaño, equipamiento y configuración de mascotas.",
+          "action": "Usa el combate como un punto de control después de mejorar tus armas, armadura y mascotas.",
+          "result": "Descubrirás si tu build está lista para jugadores más fuertes y objetivos más difíciles."
+        },
+        {
+          "step": 7,
+          "title": "Prepárate para el Rebirth",
+          "goal": "Pasa del crecimiento a corto plazo al poder a largo plazo.",
+          "action": "Haz Rebirth después de entender tu equipamiento actual, el valor de tus mascotas y tu ruta de mejora.",
+          "result": "El Rebirth te ayuda a volver más fuerte y a seguir escalando en la tabla de clasificación del servidor."
+        }
+      ]
+    },
+    "levelingAndGoldFarming": {
+      "eyebrow": "Progreso rápido",
+      "title": "Guía de niveles y farmeo de Oro de Giant Simulator Reborn",
+      "subtitle": "Usa códigos, entrenamiento, equipamiento, mascotas y pruebas de combate para subir de nivel más rápido y gastar Oro con una prioridad clara.",
+      "intro": "La progresión rápida en Giant Simulator Reborn proviene de acumular correctamente los sistemas básicos. Reclama los códigos de Oro primero, entrena para obtener XP, invierte en armas y armaduras, eclosiona mascotas útiles y usa los objetivos de combate o Rebirth para decidir cuándo tu configuración necesita otra mejora.",
+      "items": [
+        {
+          "title": "Reclama Oro antes de farmear",
+          "priority": "Más alto",
+          "data": "Los códigos activos pueden proporcionar hasta 50,001 de Oro.",
+          "action": "Canjea Demonking, Pets, Gianttofuu, Razorfishpets, Azadpets, Planetmilopets y Freegold antes de tu primera sesión larga de farmeo.",
+          "why_it_matters": "El Oro gratis acorta la fase inicial más débil y te permite comprar mejoras antes."
+        },
+        {
+          "title": "Entrena para obtener XP",
+          "priority": "Ciclo principal",
+          "data": "La página del juego de Roblox indica que hacer clic otorga XP y hace que tu gigante crezca más.",
+          "action": "Sigue entrenando mientras compruebas si tu próxima mejora te da un mejor valor de crecimiento.",
+          "why_it_matters": "El XP es la base de la progresión de tamaño, y el tamaño es el centro del ciclo del simulador."
+        },
+        {
+          "title": "Gasta Oro en equipamiento",
+          "priority": "Mejora temprana",
+          "data": "El Oro se usa para obtener mejor equipamiento, armas, cajas de botín y progresión de equipo.",
+          "action": "Compra mejoras de equipamiento cuando mejoren la ganancia de XP, el daño de combate o la velocidad general de farmeo.",
+          "why_it_matters": "Las mejores armas y armaduras hacen que cada ciclo de entrenamiento y combate sea más eficiente."
+        },
+        {
+          "title": "Usa las cajas de botín con cuidado",
+          "priority": "Sumidero de Oro",
+          "data": "Las cajas de botín pueden desbloquear armas, aspectos y potenciadores tipo compañero.",
+          "action": "Abre cajas después de reclamar Oro gratis, luego compara si la recompensa mejora tu ruta de crecimiento actual.",
+          "why_it_matters": "Gastar al azar quema el Oro; gastar en mejoras claras mantiene la progresión más limpia."
+        },
+        {
+          "title": "Incuba mascotas para obtener apoyo de crecimiento",
+          "priority": "Escalado",
+          "data": "La página de Roblox destaca la incubación, recolección y mejora de mascotas que crecen con el jugador.",
+          "action": "Añade mascotas después de que tu ruta de equipo básica esté en marcha, luego sigue mejorando las mascotas que realmente usas.",
+          "why_it_matters": "Las mascotas apoyan el crecimiento a largo plazo en lugar de dar solo poder único."
+        },
+        {
+          "title": "Usa el combate como una prueba de progreso",
+          "priority": "Punto de control",
+          "data": "El bucle del juego incluye luchar contra rivales y dominar el servidor.",
+          "action": "Después de las mejoras, prueba tu fuerza a través del combate antes de decidir si farmear más Oro o avanzar hacia el renacimiento.",
+          "why_it_matters": "El combate muestra si tu XP, equipo y configuración de mascotas mantienen el ritmo."
+        },
+        {
+          "title": "Farmea moneda de evento cuando los eventos estén activos",
+          "priority": "Ruta de evento",
+          "data": "La cobertura de videos de la comunidad destaca el farmeo de Conchas y la progresión del Evento de Verano.",
+          "action": "Usa rutas de evento cuando apoyen directamente a mascotas, artefactos u objetivos de mejora.",
+          "why_it_matters": "Los recursos de evento pueden ser valiosos cuando alimentan tu ruta de progresión real."
+        },
+        {
+          "title": "Juega manualmente y evita scripts",
+          "priority": "Seguro según las reglas",
+          "data": "Esta guía solo cubre la progresión normal dentro del juego.",
+          "action": "No utilices scripts de explotación, herramientas de automatización o menús de trucos de terceros.",
+          "why_it_matters": "La progresión manual mantiene tu cuenta de Roblox segura y tu crecimiento constante."
+        }
+      ]
+    },
+    "petsGuide": {
+      "eyebrow": "Mascotas",
+      "title": "Guía de Mascotas de Giant Simulator Reborn",
+      "subtitle": "Las mascotas son parte del ciclo de crecimiento principal: eclosiónalas, colecciona opciones más fuertes, mejóralas y usa mascotas de evento cuando estén disponibles.",
+      "intro": "Las mascotas en Giant Simulator Reborn no son solo decoración. La página de Roblox destaca la eclosión, colección y mejora de mascotas que crecen con el jugador, convirtiéndolas en una parte fundamental de la progresión a largo plazo junto con el equipamiento, las armas, el combate y el Rebirth.",
+      "items": [
+        {
+          "title": "Eclosionar mascotas",
+          "category": "Inicio",
+          "what_it_does": "Añade compañeros a tu configuración de progresión.",
+          "player_action": "Usa el sistema de mascotas después de construir una base inicial de Gold y equipamiento.",
+          "best_for": "Principiantes que quieren apoyo para el crecimiento más allá de los clics y el equipamiento solos."
+        },
+        {
+          "title": "Coleccionar mejores mascotas",
+          "category": "Progreso",
+          "what_it_does": "Crea un grupo de mascotas más fuerte con el tiempo.",
+          "player_action": "Sigue reemplazando las mascotas iniciales débiles cuando una opción más fuerte mejore tu ruta actual.",
+          "best_for": "Jugadores que pasan del crecimiento inicial a sesiones de farmeo más largas."
+        },
+        {
+          "title": "Mejorar mascotas activas",
+          "category": "Mejora",
+          "what_it_does": "Mantiene el valor de las mascotas alineado con tu gigante en crecimiento.",
+          "player_action": "Prioriza las mejoras de las mascotas que realmente usas en lugar de repartir los recursos entre todas.",
+          "best_for": "Jugadores que quieren un escalado a largo plazo más limpio."
+        },
+        {
+          "title": "Usa códigos de Gold antes de gastar en mascotas",
+          "category": "Recurso",
+          "what_it_does": "Proporciona una reserva inicial de Gold antes de comprometerse con las decisiones de mascotas y equipamiento.",
+          "player_action": "Canjea los códigos de Gold activos antes de realizar tu primer gasto importante relacionado con las mascotas.",
+          "best_for": "Nuevos jugadores que intentan evitar el farmeo inicial lento."
+        },
+        {
+          "title": "Vigila las mascotas de evento",
+          "category": "Evento",
+          "what_it_does": "Las mascotas de evento pueden convertirse en objetivos de progresión a corto plazo durante las actualizaciones.",
+          "player_action": "Consulta los eventos activos y las exhibiciones de actualizaciones antes de gastar mucho fuera de la ruta del evento.",
+          "best_for": "Jugadores que farmean contenido de tiempo limitado, como las mascotas del Summer Event."
+        },
+        {
+          "title": "Combina mascotas con equipamiento",
+          "category": "Configuración",
+          "what_it_does": "Las mascotas funcionan mejor cuando apoyan el mismo plan de crecimiento que las armas, la armadura y los objetivos de Rebirth.",
+          "player_action": "Mejora el equipamiento y las mascotas al mismo tiempo en lugar de tratar a las mascotas como un sistema secundario independiente.",
+          "best_for": "Jugadores que se preparan para desafíos de combate más difíciles y futuros Rebirths."
+        },
+        {
+          "title": "Usa mascotas para la preparación del Rebirth",
+          "category": "Rebirth",
+          "what_it_does": "Una configuración de mascotas más fuerte ayuda a facilitar el camino hacia el próximo ciclo de reinicio.",
+          "player_action": "Mejora tus mascotas antes de iniciar una sesión centrada en el Rebirth.",
+          "best_for": "Jugadores que quieren una recuperación más rápida y un crecimiento a largo plazo más fuerte después del Rebirth."
+        }
+      ]
+    },
+    "rebirthAndSoulGems": {
+      "eyebrow": "Progresión de Rebirth",
+      "title": "Guía de Rebirth y Soul Gems de Giant Simulator Reborn",
+      "subtitle": "Aprende cuándo hacer Rebirth, qué hacen las Soul Gems y cómo recuperarte rápidamente después de cada reinicio para obtener ganancias permanentes en lugar de desperdiciar un reinicio en un ciclo débil.",
+      "intro": "Rebirth es el principal sistema de progresión a largo plazo en Giant Simulator Reborn. Reinicia tu partida actual, otorga Soul Gems, mejora tu crecimiento futuro y convierte cada nuevo ciclo en un ascenso más rápido hacia un equipamiento más fuerte, mejores mascotas y farmeo de jefes.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Alcanza el requisito de Rebirth",
+          "summary": "Entrena, sube de nivel, equipa armas y armaduras más fuertes y avanza hasta que el botón de Rebirth se active.",
+          "details": [
+            "Usa la pestaña de Rebirth del menú del lado izquierdo cuando tu partida esté lista.",
+            "El requisito clásico de Rebirth es el nivel 100.",
+            "El Rebirth debe realizarse después de que tu partida actual se haya ralentizado y el siguiente reinicio haga que el próximo ascenso sea más rápido."
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Confirma el reinicio para obtener Soul Gems",
+          "summary": "Hacer Rebirth reinicia tu progreso de nivel actual y otorga Soul Gems como recompensa permanente.",
+          "details": [
+            "Las Soul Gems están ligadas a la progresión de Rebirth y al crecimiento de habilidades a largo plazo.",
+            "Una mayor progresión antes del Rebirth puede mejorar el valor del reinicio.",
+            "Después del Rebirth, restablece inmediatamente tu ciclo de entrenamiento básico en lugar de quedarte inactivo con poco poder."
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Gasta Soul Gems en habilidades permanentes",
+          "summary": "Usa Soul Gems para mejoras que beneficien las futuras partidas en lugar de solo buscar el tamaño a corto plazo.",
+          "details": [
+            "El multiplicador de monedas ayuda a que tu economía de Gold se recupere más rápido.",
+            "La ganancia de EXP acelera la subida de nivel después de cada reinicio.",
+            "Double Weapons / Ambidextrous es una mejora de gran valor porque aumenta el rendimiento del entrenamiento con armas.",
+            "La probabilidad de crítico ayuda al combate y al daño a los jefes.",
+            "La ganancia de velocidad hace que el movimiento, las rutas de entrenamiento y los ciclos de farmeo sean más fluidos."
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Farmea Soul Gems adicionales después del Rebirth",
+          "summary": "El Rebirth es la fuente principal de Soul Gems, pero las rutas de jefes y del Temple también importan una vez que tu personaje sea lo suficientemente fuerte.",
+          "details": [
+            "El farmeo de Demon King es una ruta clave de Soul Gems una vez que los jugadores pueden dominar el área del Temple.",
+            "El entrenamiento de almas en el área del Temple otorga una vía pasiva para obtener Soul Gems.",
+            "La progresión de jefes se vuelve más valiosa después de varios Rebirths porque el daño a los jefes mejora con el poder a largo plazo."
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Recupérate con un ciclo limpio posterior al Rebirth",
+          "summary": "Los primeros minutos después del Rebirth deciden si el reinicio fue útil o si se desperdició en un comienzo lento.",
+          "details": [
+            "Canjea los códigos de Gold actuales antes de comprar las primeras mejoras.",
+            "Equipa la mejor arma y armadura que te puedas permitir de inmediato.",
+            "Eclosiona o equipa las mascotas más fuertes disponibles para tu objetivo actual.",
+            "Regresa a las misiones y a los jefes una vez que tu daño sea lo suficientemente alto como para eliminarlos rápidamente.",
+            "Repite el ciclo cuando la subida de nivel se vuelva a ralentizar y la siguiente recompensa de Soul Gems valga la pena el reinicio."
+          ]
+        }
+      ]
+    },
+    "weaponsGearAndPetsTierList": {
+      "eyebrow": "Prioridad de equipamiento",
+      "title": "Tier List de armas, equipamiento y mascotas de Giant Simulator Reborn",
+      "subtitle": "Usa esta tier list como un mapa de prioridad de progresión: el equipamiento inicial te pone en marcha, las mascotas multiplican el ciclo, los artefactos ayudan a la progresión permanente y las recompensas de eventos te permiten dar un salto adelante.",
+      "intro": "Giant Simulator Reborn se basa en hacer clic para obtener XP, crecer, desbloquear mejor equipamiento, equipar armas y armaduras, eclosionar mascotas, mejorarlas y hacer rebirth para conseguir mejores partidas en el futuro. El mejor objeto suele ser el que mejora tu siguiente ciclo más rápido, no el que tiene la etiqueta de rareza más llamativa.",
+      "items": [
+        {
+          "tier": "S",
+          "stage": "Todas las etapas",
+          "category": "Arma y armadura más altas desbloqueadas",
+          "targets": [
+            "La mejor arma que puedes equipar actualmente",
+            "El mejor conjunto de armadura que puedes equipar actualmente",
+            "Equipamiento actual del Templo o de juego tardío al desbloquearse"
+          ],
+          "best_for": "Ganancia de XP, poder de combate, subida de nivel más rápida, preparación para jefes",
+          "priority_notes": "Mantén siempre actualizadas tu arma y armadura activas cuando un nuevo nivel o hito de Gold desbloquee un aumento claro de estadísticas."
+        },
+        {
+          "tier": "S",
+          "stage": "Evento y post-rebirth",
+          "category": "Mascotas evolucionadas de evento y artefactos de evento",
+          "targets": [
+            "Mascotas evolucionadas del Evento de Verano",
+            "Artefactos de evento limitados",
+            "Mejoras de moneda de evento",
+            "Recompensas de farmeo de Summer Shells"
+          ],
+          "best_for": "Puesta al día rápida, progresión por tiempo limitado, recuperación de reinicio más fuerte",
+          "priority_notes": "Durante los eventos activos, las mascotas y artefactos limitados pueden convertirse en la forma más rápida de impulsar el crecimiento porque están fuera de la escala normal de la tienda."
+        },
+        {
+          "tier": "A",
+          "stage": "Ciclos de juego medio y de rebirth",
+          "category": "Escala de Soul Gems y Quest Points",
+          "targets": [
+            "2X Soul Gems",
+            "2x Puntos de misión",
+            "+2 artefactos máximos",
+            "Mejoras de habilidad con Gemas del Alma"
+          ],
+          "best_for": "Progresión permanente, artefactos, eficiencia de renacimiento",
+          "priority_notes": "El escalado de Gemas del Alma y Puntos de misión es lo que más importa una vez que ya estás renaciendo y completando misiones de forma constante."
+        },
+        {
+          "tier": "A",
+          "stage": "Juego temprano a tardío",
+          "category": "Mejoras del equipo de mascotas",
+          "targets": [
+            "Las mejores mascotas equipadas actualmente",
+            "Mascotas mejoradas que crecen contigo",
+            "+2 mascotas máximas equipadas",
+            "+4 mascotas máximas equipadas"
+          ],
+          "best_for": "Velocidad de entrenamiento, flujo de oro, crecimiento de XP, farmeo de eventos",
+          "priority_notes": "Un equipo de mascotas activo y completo suele ser mejor que tener mascotas sin usar en el inventario, porque las mascotas equipadas apoyan directamente el ciclo principal de crecimiento."
+        },
+        {
+          "tier": "B",
+          "stage": "Principiante y primer renacimiento",
+          "category": "Equipamiento de la tienda inicial y primeras mascotas",
+          "targets": [
+            "Primera espada asequible",
+            "Primer conjunto de armadura",
+            "Primeras mascotas eclosionadas",
+            "Primeras mejoras financiadas con oro"
+          ],
+          "best_for": "Progreso de la primera sesión, subida de nivel temprana, primera configuración de renacimiento",
+          "priority_notes": "El equipamiento inicial solo es valioso mientras acelere el siguiente desbloqueo. Reemplázalo rápidamente cuando haya mejor equipamiento disponible."
+        },
+        {
+          "tier": "C",
+          "stage": "Contenido superado por nivel",
+          "category": "Equipamiento antiguo, duplicados débiles y mascotas inactivas",
+          "targets": [
+            "Armas obsoletas",
+            "Armaduras obsoletas",
+            "Mascotas duplicadas de poco valor",
+            "Configuraciones puramente cosméticas sin valor de progresión"
+          ],
+          "best_for": "Solo para colección",
+          "priority_notes": "No dejes que los objetos antiguos decidan tu configuración activa. Mantén equipada la configuración de progresión más fuerte, porque la nostalgia no farmea oro."
+        }
+      ]
+    },
+    "bossesQuestsAndPvpGuide": {
+      "eyebrow": "Guía de combate",
+      "title": "Guía de jefes, misiones y PvP de Giant Simulator Reborn",
+      "subtitle": "Usa el combate, las misiones y las rutas de jefes para convertir el entrenamiento en progreso real. Crece, equípate y mantente firme frente a jugadores más fuertes en la tabla de clasificación.",
+      "intro": "El combate en Giant Simulator Reborn se conecta directamente con el ciclo principal del simulador. Haces clic para ganar XP, crecer, desbloquear mejor equipamiento, equipar armas y armaduras, eclosionar mascotas, completar misiones, luchar contra jefes y renacer cuando el reinicio otorga un mejor poder a largo plazo.",
+      "items": [
+        {
+          "title": "Ciclo de combate principal",
+          "content": "Entrena para ganar XP, sube de nivel, desbloquea equipamiento más fuerte, equipa armas y armaduras, eclosiona y mejora mascotas, y luego usa ese poder para completar misiones y derrotar jefes más rápido.",
+          "tips": [
+            "Mejora el equipamiento cuando la siguiente compra te permita ganar XP o derrotar jefes más rápido.",
+            "Mantén las mascotas equipadas en lugar de tratarlas como decoración del inventario.",
+            "Usa habilidades de rebirth para mejorar el Gold, EXP, críticos, velocidad y potencia de armas en futuras partidas."
+          ]
+        },
+        {
+          "title": "Prioridad de jefes",
+          "content": "Borock es el objetivo inicial, mientras que Demon King se vuelve importante una vez que puedas manejar la ruta del Temple y busques una progresión centrada en Soul Gems.",
+          "tips": [
+            "Usa las primeras peleas contra jefes para probar si tu daño es suficiente para las misiones.",
+            "Cambia al farming de Demon King cuando tu arma, armadura, pets y habilidades de rebirth hagan que las victorias sean eficientes.",
+            "El daño a jefes se vuelve más significativo después de repetidos ciclos de rebirth."
+          ]
+        },
+        {
+          "title": "Rutas de misiones",
+          "content": "Las tareas de las misiones incluyen derrotar Gnomes, recolectar Orbs, derrotar a Borock, derrotar a Demon King, recolectar Golden Eggs y minar meteoros. Las recompensas incluyen Gold, experiencia y Quest Points.",
+          "tips": [
+            "Acepta misiones que coincidan con lo que ya estés farmeando.",
+            "Prioriza jefes rápidos o tareas de recolección cuando necesites Quest Points para el progreso de artefactos.",
+            "No abandones el ciclo principal de mejoras solo para perseguir una misión lenta en un mal momento."
+          ]
+        },
+        {
+          "title": "Supervivencia en PvP",
+          "content": "El PvP es más fácil después de que tu nivel, equipo, pets, velocidad y mejoras de rebirth puedan soportar movimiento y daño reales. Los jugadores nuevos deben evitar luchar contra gigantes de alto poder hasta que su build pueda recuperarse rápido.",
+          "tips": [
+            "Entrena y mejora antes de buscar peleas con jugadores visiblemente más fuertes.",
+            "Usa servidores más tranquilos cuando quieras un farming o recolección de eventos más seguro.",
+            "Gasta Gold en mejoras útiles antes de entrar en zonas de combate arriesgadas."
+          ]
+        },
+        {
+          "title": "Cuándo cambiar de equipo o de objetivo de farming",
+          "content": "Cambia de armas, armadura, pets o rutas de farming cuando tu configuración actual ya no mejore la velocidad de nivelación, la ganancia de Gold, la finalización de misiones o el farming de jefes.",
+          "tips": [
+            "Si la subida de nivel se ralentiza, mejora primero el arma y la armadura.",
+            "Si la ganancia de Gold se ralentiza, mejora los pets, las habilidades de monedas y las rutas de Gold.",
+            "Si derrotar jefes es lento, retrasa la ruta de jefes hasta que tu configuración de daño y críticos mejore.",
+            "Si hay un nuevo evento activo, revisa los pets de evento, artefactos y la moneda del evento antes de farmear en las rutas normales."
+          ]
+        }
+      ]
+    },
+    "eventsUpdatesAndOfficialLinks": {
+      "eyebrow": "Actualizaciones y enlaces",
+      "title": "Actualizaciones de eventos y enlaces oficiales de Giant Simulator Reborn",
+      "subtitle": "Usa estos enlaces para seguir las nuevas actualizaciones, recompensas de eventos, códigos, actividad del servidor y anuncios de la comunidad sin depender de publicaciones copiadas o listas de códigos obsoletas.",
+      "intro": "Las actualizaciones de Giant Simulator Reborn se siguen mejor a través de la página del juego en Roblox, las páginas de la comunidad de Mithril Games, la invitación oficial de Discord y la cuenta de X de Mithril Games. Los jugadores enfocados en eventos también deben ver demostraciones de gameplay actuales para conocer pets limitados, artefactos, monedas de evento y rutas de Summer Shell.",
+      "items": [
+        {
+          "label": "Jugar a Giant Simulator Reborn",
+          "type": "página-oficial-del-juego",
+          "url": "https://www.roblox.com/games/12645083079/Giant-Simulator-REBORN",
+          "description": "Página principal de la experiencia en Roblox para iniciar el juego, revisar la descripción, abrir objetos de la tienda, ver servidores y seguir el juego.",
+          "use_for": "Enlace para jugar, descripción oficial del juego, pestaña de tienda, servidores, actualizaciones"
+        },
+        {
+          "label": "Mithril Games Roblox Community",
+          "type": "comunidad-oficial-de-roblox",
+          "url": "https://www.roblox.com/communities/3497226/Mithril-Games",
+          "description": "Página de la comunidad de Roblox para Mithril Games, el grupo de desarrolladores detrás de Giant Simulator Reborn.",
+          "use_for": "Comunidad de desarrolladores, membresía del grupo, actualizaciones por parte de Roblox"
+        },
+        {
+          "label": "Official Mithril Games Discord",
+          "type": "discord-oficial",
+          "url": "https://discord.com/invite/f7eMMSjBbh",
+          "description": "Centro de la comunidad para anuncios, discusión de actualizaciones, lanzamientos de códigos, eventos y actividad de los jugadores.",
+          "use_for": "Códigos, anuncios de eventos, notas de actualización, soporte al jugador"
+        },
+        {
+          "label": "Mithril Games en X",
+          "type": "social-oficial",
+          "url": "https://x.com/MithrilGames",
+          "description": "Cuenta social oficial de Mithril Games, creadores de Giant Simulator y otras experiencias de Roblox.",
+          "use_for": "Noticias, publicaciones de eventos, actualizaciones sociales, seguimiento de concursos"
+        },
+        {
+          "label": "Datos del juego de Roblox en vivo",
+          "type": "datos-del-juego",
+          "url": "https://www.rolimons.com/game/12645083079",
+          "description": "Página de datos de juegos de Roblox de terceros en vivo que muestra jugadores, visitas, calificación, favoritos, tiempo de juego promedio, pico de CCU, tiempos de actualización y gamepasses listados.",
+          "use_for": "Verificaciones de tráfico, lista de gamepasses, tiempos de actualización, señales de popularidad"
+        },
+        {
+          "label": "Presentación del Summer Event",
+          "type": "video-del-evento",
+          "url": "https://www.youtube.com/watch?v=14Hia0RW16Q",
+          "description": "Muestra de gameplay centrada en el Summer Event de Giant Simulator Reborn, pets evolucionados, artefactos y progresión del evento.",
+          "use_for": "Pets del Summer Event, artefactos, moneda del evento, referencia de la presentación"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Giant Simulator Reborn",
+    "questions": [
+      {
+        "question": "¿Qué es Giant Simulator Reborn?",
+        "answer": "Giant Simulator Reborn es un simulador de crecimiento de gigantes en Roblox donde haces clic para ganar XP, crecer más, desbloquear armas y armaduras, eclosionar pets, hacer rebirth para una progresión permanente y escalar en las tablas de clasificación."
+      },
+      {
+        "question": "¿Cómo canjeo códigos en Giant Simulator Reborn?",
+        "answer": "Abre Giant Simulator Reborn en Roblox, presiona el botón del pájaro blanco en el lado derecho de la pantalla, pega un código en el cuadro de texto y presiona Enter para reclamar tu recompensa de Gold."
+      },
+      {
+        "question": "¿Para qué se usan los pets en Giant Simulator Reborn?",
+        "answer": "En Giant Simulator Reborn, los pets añaden un multiplicador de crecimiento permanente a tu entrenamiento, ganancia de Gold y poder de combate, por lo que eclosionarlos, coleccionarlos y mejorarlos es una parte fundamental de la progresión a largo plazo."
+      },
+      {
+        "question": "¿Cuándo debería hacer rebirth en Giant Simulator Reborn?",
+        "answer": "Haz rebirth en Giant Simulator Reborn una vez que tu partida actual se ralentice y el próximo reinicio haga que el siguiente ascenso sea más rápido, porque el rebirth otorga Soul Gems que mejoran el Gold, XP, crítico, velocidad y el rendimiento de las armas en futuras partidas."
+      },
+      {
+        "question": "¿Es Giant Simulator Reborn gratuito?",
+        "answer": "Sí. Giant Simulator Reborn es gratuito en Roblox. Puedes iniciarlo directamente desde la página oficial del juego en Roblox y empezar a hacer crecer a tu gigante de inmediato."
+      },
+      {
+        "question": "¿Dónde puedo conseguir nuevos códigos de Giant Simulator Reborn?",
+        "answer": "Los nuevos códigos de Giant Simulator Reborn se comparten a través del Discord oficial de Mithril Games, la cuenta de X de Mithril Games y las actualizaciones de la comunidad de Roblox, por lo que seguir esos canales mantiene tu lista de códigos al día."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para hacer crecer al gigante más grande?",
+    "description": "¡Únete a la comunidad de Mithril Games en Discord para obtener códigos, actualizaciones, eventos y discusiones sobre Giant Simulator Reborn!",
+    "joinCommunity": "Unirse a Discord",
+    "joinGame": "Jugar en Roblox"
+  },
+  "footer": {
+    "title": "Wiki de Giant Simulator Reborn",
+    "description": "Tu centro de recursos completo para códigos, pets, rebirth, equipo, jefes y guías de farmeo de Giant Simulator Reborn.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Giant Simulator Reborn Wiki. No afiliado con Mithril Games.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans.",
+    "youtube": "YouTube",
+    "roblox": "Jugar en Roblox"
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Giant Simulator Reborn",
+      "description": "Códigos activos de Giant Simulator Reborn para obtener Oro gratis, cajas de botín y recompensas de inicio. Canjea cada código activo para saltarte el progreso inicial.",
+      "metaTitle": "Códigos de Giant Simulator Reborn - Oro y recompensas gratis",
+      "metaDescription": "Canjea códigos activos de Giant Simulator Reborn para obtener Oro gratis, cajas y equipamiento de inicio. Lista actualizada con códigos verificados y pasos para canjearlos.",
+      "categoryLabel": "CANJEAR CÓDIGOS",
+      "whatIs": "¿Qué son los códigos?",
+      "whatIsDescription": "Los códigos de Giant Simulator Reborn son códigos canjeables lanzados por los desarrolladores y compartidos a través del Discord oficial de Mithril Games, la cuenta de X de Mithril Games y las actualizaciones de la comunidad de Roblox. Al introducirlos en el juego, obtendrás Oro gratis, cajas de botín y potenciadores de progreso que te permitirán comprar armas, armaduras y mejoras de mascotas sin tener que empezar desde cero.",
+      "why": "¿Por qué canjear códigos?",
+      "whySteps": {
+        "step1Title": "Potenciador de Oro instantáneo",
+        "step1Description": "Acumula decenas de miles de Oro gratis en segundos para comprar tus primeras armas y armaduras.",
+        "step2Title": "Progreso inicial más rápido",
+        "step2Description": "Sáltate el lento progreso inicial y ve directo al entrenamiento, la eclosión y el renacimiento.",
+        "step3Title": "Siempre actualizado",
+        "step3Description": "Cada código se verifica en los canales oficiales antes de publicarse, por lo que la lista siempre es precisa."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los códigos"
+    },
+    "guide": {
+      "title": "Guía de Giant Simulator Reborn",
+      "description": "Guías completas de Giant Simulator Reborn, desde los conceptos básicos para principiantes hasta estrategias avanzadas de renacimiento, equipamiento y farmeo de oro.",
+      "metaTitle": "Guía de Giant Simulator Reborn - Estrategias para principiantes y avanzados",
+      "metaDescription": "Guías completas de Giant Simulator Reborn que cubren consejos para principiantes, códigos, progresión de equipamiento, mascotas, renacimiento, jefes y farmeo de oro.",
+      "categoryLabel": "GUÍAS DEL JUEGO",
+      "whatIs": "¿Qué son las guías?",
+      "whatIsDescription": "Las guías de Giant Simulator Reborn detallan el ciclo de crecimiento principal: hacer clic para ganar XP, volverse más grande, desbloquear armas y armaduras, eclosionar mascotas y renacer para obtener una escala permanente. Cada guía analiza a fondo una mecánica, con rutas paso a paso, prioridades de equipamiento y estrategias rentables para jugadores nuevos y recurrentes.",
+      "why": "¿Por qué leer las guías?",
+      "whySteps": {
+        "step1Title": "Aprende las mecánicas principales",
+        "step1Description": "Comprende el ciclo de crecimiento de XP, los códigos y los sistemas de mascotas y renacimiento antes de gastar recursos.",
+        "step2Title": "Progresión rápida",
+        "step2Description": "Sigue rutas probadas para crecer, equiparte y renacer de manera eficiente sin desperdiciar esfuerzos.",
+        "step3Title": "Domina las estrategias",
+        "step3Description": "Desarrolla tácticas avanzadas para jefes, tablas de clasificación y farmeo de oro."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías"
+    },
+    "rebirth": {
+      "title": "Rebirth en Giant Simulator Reborn",
+      "description": "Mecánicas de rebirth de Giant Simulator Reborn, recompensas de Soul Gems, farmeo de habilidades y los momentos óptimos para hacer rebirth para un escalado permanente.",
+      "metaTitle": "Rebirth en Giant Simulator Reborn - Soul Gems y farmeo de habilidades",
+      "metaDescription": "Domina el rebirth en Giant Simulator Reborn: cuándo hacer rebirth, recompensas de Soul Gems, rutas de farmeo de habilidades y multiplicadores permanentes para un crecimiento más rápido.",
+      "categoryLabel": "SISTEMA DE REBIRTH",
+      "whatIs": "¿Qué es el Rebirth?",
+      "whatIsDescription": "El Rebirth es el sistema de prestigio de Giant Simulator Reborn: al nivel 100 reinicias tu gigante a cambio de Soul Gems permanentes y multiplicadores que hacen que cada partida futura escale más rápido. Las Soul Gems financian mejoras de habilidades que persisten a través de los rebirths, por lo que cada ciclo acumula tu XP, oro y daño infligido.",
+      "why": "¿Por qué hacer rebirth?",
+      "whySteps": {
+        "step1Title": "Multiplicadores permanentes",
+        "step1Description": "Las mejoras de Soul Gems siguen aumentando la XP y el oro en cada ciclo de rebirth.",
+        "step2Title": "Crecimiento a largo plazo más rápido",
+        "step2Description": "Cada rebirth acorta el camino hacia el siguiente límite de nivel y desbloquea mejor equipamiento.",
+        "step3Title": "Escalado en la tabla de clasificación",
+        "step3Description": "Se requiere un escalado permanente para competir en las tablas de clasificación globales."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de Rebirth"
+    },
+    "leveling": {
+      "title": "Subida de nivel en Giant Simulator Reborn",
+      "description": "Guías de subida de nivel de Giant Simulator Reborn: las rutas más rápidas para subir de nivel, alcanzar el nivel máximo y avanzar hacia el nivel 300 millones.",
+      "metaTitle": "Subida de nivel en Giant Simulator Reborn - Sube de nivel rápido y alcanza el nivel máximo",
+      "metaDescription": "Sube de nivel rápido en Giant Simulator Reborn con rutas de XP probadas, las estrategias de subida de nivel más rápidas y consejos para alcanzar el nivel más alto y el nivel 300 millones.",
+      "categoryLabel": "GUÍA DE SUBIDA DE NIVEL",
+      "whatIs": "¿Qué es la subida de nivel?",
+      "whatIsDescription": "La subida de nivel mide la XP total de tu gigante en Giant Simulator Reborn. Los niveles más altos desbloquean armas, armaduras, mascotas y umbrales de rebirth más fuertes. Una subida de nivel eficiente combina zonas de entrenamiento óptimas, acumulación de multiplicadores y el momento del rebirth para avanzar hacia los hitos más altos del juego, incluido el objetivo del nivel 300 millones.",
+      "why": "¿Por qué subir de nivel rápido?",
+      "whySteps": {
+        "step1Title": "Desbloquea mejor equipamiento",
+        "step1Description": "Los niveles más altos limitan las mejores armas, armaduras y ranuras para mascotas.",
+        "step2Title": "Alcanza los umbrales de Rebirth",
+        "step2Description": "Alcanzar el nivel 100 rápido te permite hacer rebirth antes y acumular Soul Gems.",
+        "step3Title": "Sube en las tablas de clasificación",
+        "step3Description": "La XP total es la métrica principal para las tablas de clasificación globales y del servidor."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de subida de nivel"
+    },
+    "farming": {
+      "title": "Farmeo en Giant Simulator Reborn",
+      "description": "Rutas de farmeo de oro y shells en Giant Simulator Reborn: cómo conseguir oro rápido, las mejores zonas de farmeo de shells y estrategias de Summer Shells.",
+      "metaTitle": "Farmeo en Giant Simulator Reborn - Rutas de farmeo de oro y shells",
+      "metaDescription": "Farmea oro y shells rápido en Giant Simulator Reborn con las mejores zonas de farmeo de shells, rutas de Summer Shells y estrategias de oro para armas, armaduras y mascotas.",
+      "categoryLabel": "GUÍA DE FARMEO",
+      "whatIs": "¿Qué es el farmeo?",
+      "whatIsDescription": "El farmeo en Giant Simulator Reborn es el proceso de grindear Oro y conchas, dos monedas principales usadas para comprar armas, armaduras, cajas de botín, huevos de mascota y mejoras. Las rutas de farmeo eficientes se centran en los mejores puntos de aparición de conchas, acumulan multiplicadores de oro y rotan las conchas exclusivas del evento durante el Evento de Verano para obtener el máximo rendimiento.",
+      "why": "¿Por qué farmear de manera eficiente?",
+      "whySteps": {
+        "step1Title": "Ingresos constantes de Oro",
+        "step1Description": "Las rutas confiables de conchas mantienen el flujo de Oro para armas, armaduras y cajas.",
+        "step2Title": "Moneda de evento",
+        "step2Description": "Las Conchas de Verano se convierten en mascotas limitadas, artefactos y recompensas de evento.",
+        "step3Title": "Mejoras de mascotas y equipo",
+        "step3Description": "El Oro farmeado financia la eclosión de huevos y las mejoras que impulsan el progreso a largo plazo."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de farmeo"
+    },
+    "event": {
+      "title": "Eventos de Giant Simulator Reborn",
+      "description": "Guías del Evento de Verano de Giant Simulator Reborn: detalles de la actualización de verano, mascotas de verano, artefactos y progresión completa del evento.",
+      "metaTitle": "Eventos de Giant Simulator Reborn - Guía de actualización y Evento de Verano",
+      "metaDescription": "Cobertura completa de eventos de Giant Simulator Reborn: guía del Evento de Verano, detalles de la actualización de verano, mascotas de verano, artefactos de verano y rutas de monedas de evento.",
+      "categoryLabel": "GUÍA DE EVENTOS",
+      "whatIs": "¿Qué son los eventos?",
+      "whatIsDescription": "Los eventos en Giant Simulator Reborn son actualizaciones por tiempo limitado —como el Evento de Verano— que introducen conchas, mascotas, artefactos y monedas de evento exclusivos. Rotan nuevas recompensas y rutas de progresión que solo están disponibles durante el periodo del evento, por lo que jugar a tiempo es esencial para recoger objetos limitados antes de que desaparezcan.",
+      "why": "¿Por qué jugar eventos?",
+      "whySteps": {
+        "step1Title": "Mascotas y artefactos limitados",
+        "step1Description": "Las mascotas y artefactos exclusivos del evento solo aparecen durante el periodo del mismo.",
+        "step2Title": "Monedas de bonificación",
+        "step2Description": "Las Conchas de Verano y los tokens de evento se acumulan sobre los ingresos normales de Oro.",
+        "step3Title": "Nuevas rutas de progresión",
+        "step3Description": "Los eventos añadaden rutas y objetivos frescos que rompen con el grindeo principal."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías de eventos"
+    },
+    "pets": {
+      "title": "Mascotas de Giant Simulator Reborn",
+      "description": "Guías de mascotas de Giant Simulator Reborn: las mejores mascotas, mascotas evolucionadas, mecánicas evo y estrategias de la mascota Coco para potenciadores de daño y oro.",
+      "metaTitle": "Mascotas de Giant Simulator Reborn - Guía de las mejores mascotas y evolucionadas",
+      "metaDescription": "Encuentra las mejores mascotas en Giant Simulator Reborn, aprende las mecánicas de evolución y mascotas evo, y optimiza las builds de la mascota Coco para obtener potenciadores de daño, oro y XP.",
+      "categoryLabel": "GUÍA DE MASCOTAS",
+      "whatIs": "¿Qué son las mascotas?",
+      "whatIsDescription": "Las mascotas en Giant Simulator Reborn son compañeros que eclosionan de huevos y potencian de forma pasiva tu daño, ganancia de oro y tasa de XP. Eclosionar, mejorar y eventualmente evolucionar mascotas a sus formas evo multiplica estas bonificaciones, y las mascotas por niveles como la mascota Coco ofrecen algunas de las progresiones más fuertes en el juego avanzado cuando se combinan con el equipo adecuado y la configuración de rebirth.",
+      "why": "¿Por qué mejorar mascotas?",
+      "whySteps": {
+        "step1Title": "Daño y Oro pasivos",
+        "step1Description": "Las mascotas multiplican tu producción de daño y ganancia de oro en segundo plano.",
+        "step2Title": "Evoluciones",
+        "step2Description": "Evolucionar mascotas a sus formas evo desbloquea sus estadísticas más fuertes.",
+        "step3Title": "Escalamiento en el juego avanzado",
+        "step3Description": "Las mascotas de nivel superior como Coco impulsan un rendimiento digno de la tabla de clasificación."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Guías de todas las mascotas"
+    },
+    "locations": {
+      "title": "Ubicaciones de Giant Simulator Reborn",
+      "description": "Ubicaciones y coleccionables de Giant Simulator Reborn: ubicaciones de Huevos de Oro, huevos, secretos, artefactos, armas y acceso a servidores privados.",
+      "metaTitle": "Ubicaciones de Giant Simulator Reborn - Huevos de Oro, secretos y artefactos",
+      "metaDescription": "Encuentra cada ubicación de Giant Simulator Reborn: puntos de Huevos de Oro, huevos, secretos, artefactos, armas y cómo unirse a un servidor privado para farmear sin interrupciones.",
+      "categoryLabel": "UBICACIONES Y SECRETOS",
+      "whatIs": "¿Qué son las ubicaciones?",
+      "whatIsDescription": "Las ubicaciones en Giant Simulator Reborn abarcan los mapas, coleccionables y objetos ocultos repartidos por el juego: apariciones de Huevos de Oro, huevos, secretos, artefactos y alijos de armas. Rastrear estas ubicaciones desbloquea equipamiento gratuito, recompensas de bonificación y objetos exclusivos, mientras que los servidores privados ofrecen un farmeo sin lag lejos de las concurridas salas públicas.",
+      "why": "¿Por qué explorar las ubicaciones?",
+      "whySteps": {
+        "step1Title": "Equipamiento y recompensas gratis",
+        "step1Description": "Los Huevos de Oro, los secretos y los artefactos otorgan armas y bonificaciones gratis.",
+        "step2Title": "Completa colecciones",
+        "step2Description": "Mapea cada ubicación para completar los conjuntos de huevos, artefactos y armas.",
+        "step3Title": "Farmeo en servidores privados",
+        "step3Description": "Los servidores privados eliminan la competencia por las apariciones de gran valor."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Guías de todas las ubicaciones"
+    }
   }
 }
