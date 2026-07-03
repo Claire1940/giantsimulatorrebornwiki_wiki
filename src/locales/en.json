@@ -10,7 +10,16 @@
       "twitterDescription": "Giant Simulator Reborn Wiki covers codes, pets, rebirth, bosses, and gold farming for Roblox players."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "rebirth": "Rebirth",
+    "leveling": "Leveling",
+    "farming": "Farming",
+    "event": "Event",
+    "pets": "Pets",
+    "locations": "Locations"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -701,125 +710,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Giant Simulator Reborn Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced rebirth, boss, and gold farming strategies.",
-      "metaTitle": "Giant Simulator Reborn Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Giant Simulator Reborn guides covering beginner tips, codes, pets, rebirth, bosses, and gold farming for Roblox players.",
+    "codes": {
+      "title": "Giant Simulator Reborn Codes",
+      "description": "Active Giant Simulator Reborn codes for free Gold, loot crates, and starter rewards. Redeem every working code to skip the early grind.",
+      "metaTitle": "Giant Simulator Reborn Codes - Free Gold & Rewards",
+      "metaDescription": "Redeem active Giant Simulator Reborn codes for free Gold, crates, and starter gear. Updated list with verified working codes and redeem steps.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Giant Simulator Reborn codes are developer-released redeem strings shared through the official Mithril Games Discord, the Mithril Games X account, and Roblox community updates. Entering them in-game grants free Gold, loot crates, and progression boosts that let you buy weapons, armor, and pet upgrades without grinding from zero.",
+      "why": "Why redeem codes?",
+      "whySteps": {
+        "step1Title": "Instant Gold Boost",
+        "step1Description": "Stack tens of thousands of free Gold in seconds to buy early weapons and armor.",
+        "step2Title": "Faster Starter Progress",
+        "step2Description": "Skip the slow early grind and jump straight into training, hatching, and rebirth.",
+        "step3Title": "Always Current",
+        "step3Description": "Every code is checked against official channels before publishing, so the list stays accurate."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "Giant Simulator Reborn Guide",
+      "description": "Complete Giant Simulator Reborn guides from beginner basics to advanced rebirth, gear, and gold farming strategies.",
+      "metaTitle": "Giant Simulator Reborn Guide - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Giant Simulator Reborn guides covering beginner tips, codes, gear progression, pets, rebirth, bosses, and gold farming.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, codes, pets, rebirth, and combat strategies. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Giant Simulator Reborn guides break down the core growth loop—clicking to gain XP, growing larger, unlocking weapons and armor, hatching pets, and rebirthing for permanent scaling. Each guide covers one mechanic in depth, with step-by-step routes, gear priorities, and cost-efficient strategies for new and returning players.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the growth loop, codes, and pet systems",
+        "step1Description": "Understand the XP growth loop, codes, pet, and rebirth systems before spending resources.",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven routes to grow, gear up, and rebirth efficiently",
+        "step2Description": "Follow proven routes to grow, gear up, and rebirth efficiently without wasted effort.",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for bosses, PvP, and gold farming"
+        "step3Description": "Develop advanced tactics for bosses, leaderboards, and gold farming."
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Giant Simulator Reborn Codes",
-      "description": "Active codes, free Gold rewards, expired codes, and the redeem steps for Giant Simulator Reborn.",
-      "metaTitle": "Giant Simulator Reborn Codes - Free Gold Rewards",
-      "metaDescription": "Redeem active Giant Simulator Reborn codes for free Gold, check expired codes, and learn the redeem steps through the white bird button.",
-      "categoryLabel": "CODES",
-      "whatIs": "What are Codes?",
-      "whatIsDescription": "Giant Simulator Reborn codes give free Gold and other rewards. Redeem them through the bird button inside the Roblox experience before they expire.",
-      "why": "Why redeem codes?",
-      "whySteps": {
-        "step1Title": "Free Gold Boost",
-        "step1Description": "Claim thousands of Gold before your first farming session",
-        "step2Title": "Faster Early Upgrades",
-        "step2Description": "Spend free Gold on weapons, armor, and loot crates",
-        "step3Title": "Stay Current",
-        "step3Description": "New codes drop with updates, events, and milestones"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Code Articles"
-    },
-    "items": {
-      "title": "Giant Simulator Reborn Gear",
-      "description": "Weapons, armor, loot crates, and equipment guides with upgrade priorities for Giant Simulator Reborn.",
-      "metaTitle": "Giant Simulator Reborn Gear - Weapons, Armor & Equipment",
-      "metaDescription": "Complete Giant Simulator Reborn gear guides covering weapons, armor, loot crates, and upgrade priorities for every progression stage.",
-      "categoryLabel": "GEAR & EQUIPMENT",
-      "whatIs": "What is Gear?",
-      "whatIsDescription": "Guides for weapons, armor, loot crates, and equipment. Learn upgrade priorities, stat differences, and the best gear for early, mid, and late game.",
-      "why": "Why check gear guides?",
-      "whySteps": {
-        "step1Title": "Upgrade Priority",
-        "step1Description": "Know which weapons and armor to buy first",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best gear for your progression stage",
-        "step3Title": "Improve Combat",
-        "step3Description": "Equip the right gear for bosses, PvP, and farming"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Gear"
-    },
-    "biomes": {
-      "title": "Giant Simulator Reborn Bosses",
-      "description": "Boss locations, fight strategies, drops, and preparation requirements for Giant Simulator Reborn.",
-      "metaTitle": "Giant Simulator Reborn Bosses - Locations, Drops & Strategy",
-      "metaDescription": "Giant Simulator Reborn boss guides covering Borock, Demon King, the Temple route, drops, damage scaling, and preparation requirements.",
-      "categoryLabel": "BOSSES",
-      "whatIs": "What are Bosses?",
-      "whatIsDescription": "Guides to boss locations, fight mechanics, drops, and the gear and pet preparation needed to clear them efficiently.",
-      "why": "Why fight bosses?",
-      "whySteps": {
-        "step1Title": "Soul Gems",
-        "step1Description": "Bosses like Demon King are a key Soul Gem source",
-        "step2Title": "Quest Progress",
-        "step2Description": "Boss kills unlock quest points and artifact progress",
-        "step3Title": "Long-Term Power",
-        "step3Description": "Boss damage scales with rebirths and permanent upgrades"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Boss Guides"
-    },
-    "building": {
+    "rebirth": {
       "title": "Giant Simulator Reborn Rebirth",
-      "description": "Rebirth conditions, Soul Gems spending, reset mechanics, and the permanent growth loop in Giant Simulator Reborn.",
-      "metaTitle": "Giant Simulator Reborn Rebirth - Soul Gems & Reset Guide",
-      "metaDescription": "Master Giant Simulator Reborn rebirth with Soul Gems spending, reset conditions, and the permanent skill upgrades that improve every future run.",
-      "categoryLabel": "REBIRTH",
+      "description": "Giant Simulator Reborn rebirth mechanics, Soul Gem rewards, skill farming, and the optimal moments to rebirth for permanent scaling.",
+      "metaTitle": "Giant Simulator Reborn Rebirth - Soul Gems & Skill Farming",
+      "metaDescription": "Master Giant Simulator Reborn rebirth: when to rebirth, Soul Gem rewards, skill farming routes, and permanent multipliers for faster growth.",
+      "categoryLabel": "REBIRTH SYSTEM",
       "whatIs": "What is Rebirth?",
-      "whatIsDescription": "Rebirth resets your current run in exchange for Soul Gems, which fund permanent skill upgrades like coin multiplier, EXP gain, double weapons, crit, and speed.",
+      "whatIsDescription": "Rebirth is Giant Simulator Reborn's prestige system: at Level 100 you reset your giant in exchange for permanent Soul Gems and multipliers that make every future run scale faster. Soul Gems fund skill upgrades that persist across rebirths, so each cycle compounds your XP, gold, and damage output.",
       "why": "Why rebirth?",
       "whySteps": {
-        "step1Title": "Permanent Scaling",
-        "step1Description": "Soul Gems improve Gold, XP, and combat across runs",
-        "step2Title": "Faster Recovery",
-        "step2Description": "Each new cycle climbs faster than the last",
-        "step3Title": "Boss Readiness",
-        "step3Description": "Long-term power unlocks harder boss routes"
+        "step1Title": "Permanent Multipliers",
+        "step1Description": "Soul Gem upgrades keep boosting XP and gold across every rebirth cycle.",
+        "step2Title": "Faster Long-Term Growth",
+        "step2Description": "Each rebirth shortens the path to the next level cap and unlocks stronger gear.",
+        "step3Title": "Leaderboard Scaling",
+        "step3Description": "Permanent scaling is required to compete on global leaderboards."
       },
       "featured": "Featured & Essential",
       "all": "All Rebirth Guides"
     },
-    "support": {
-      "title": "Giant Simulator Reborn Events",
-      "description": "Limited-time events, event currency, event pets, and update notes for Giant Simulator Reborn.",
-      "metaTitle": "Giant Simulator Reborn Events - Updates & Limited-Time Rewards",
-      "metaDescription": "Track Giant Simulator Reborn events including Summer Event, Shell farming, event pets, event artifacts, and update history.",
-      "categoryLabel": "EVENTS & UPDATES",
-      "whatIs": "What are Events?",
-      "whatIsDescription": "Limited-time events add event currency, event pets, and event artifacts. Use event routes when they feed your progression path before they end.",
-      "why": "Why follow events?",
+    "leveling": {
+      "title": "Giant Simulator Reborn Leveling",
+      "description": "Giant Simulator Reborn leveling guides: the fastest routes to level up, reach the highest level, and push toward Level 300 million.",
+      "metaTitle": "Giant Simulator Reborn Leveling - Level Up Fast & Reach Max Level",
+      "metaDescription": "Level up fast in Giant Simulator Reborn with proven XP routes, fastest leveling strategies, and tips to reach the highest level and Level 300 million.",
+      "categoryLabel": "LEVELING GUIDE",
+      "whatIs": "What is Leveling?",
+      "whatIsDescription": "Leveling measures your giant's total XP in Giant Simulator Reborn. Higher levels unlock stronger weapons, armor, pets, and rebirth thresholds. Efficient leveling combines optimal training zones, multiplier stacking, and rebirth timing to push toward the game's highest milestones, including the Level 300 million target.",
+      "why": "Why level up fast?",
       "whySteps": {
-        "step1Title": "Limited Rewards",
-        "step1Description": "Event pets and artifacts can jump your growth forward",
-        "step2Title": "Event Currency",
-        "step2Description": "Shells and event coins fund exclusive upgrades",
-        "step3Title": "Update Tracking",
-        "step3Description": "Catch new codes, bosses, and rebalance changes early"
+        "step1Title": "Unlock Stronger Gear",
+        "step1Description": "Higher levels gate the best weapons, armor, and pet slots.",
+        "step2Title": "Hit Rebirth Thresholds",
+        "step2Description": "Reaching Level 100 fast lets you rebirth sooner and bank Soul Gems.",
+        "step3Title": "Climb Leaderboards",
+        "step3Description": "Total XP is the main metric for global and server leaderboards."
       },
       "featured": "Featured & Essential",
-      "all": "All Event Articles"
+      "all": "All Leveling Guides"
+    },
+    "farming": {
+      "title": "Giant Simulator Reborn Farming",
+      "description": "Giant Simulator Reborn gold and shell farming routes: how to get Gold fast, the best shell farms, and Summer Shell strategies.",
+      "metaTitle": "Giant Simulator Reborn Farming - Gold & Shell Farm Routes",
+      "metaDescription": "Farm Gold and shells fast in Giant Simulator Reborn with the best shell farms, Summer Shell routes, and gold strategies for weapons, armor, and pets.",
+      "categoryLabel": "FARMING GUIDE",
+      "whatIs": "What is Farming?",
+      "whatIsDescription": "Farming in Giant Simulator Reborn is the process of grinding Gold and shells—two core currencies used to buy weapons, armor, loot crates, pet eggs, and upgrades. Efficient farming routes target the best shell spawns, stack gold multipliers, and rotate event-only shells during the Summer Event for maximum returns.",
+      "why": "Why farm efficiently?",
+      "whySteps": {
+        "step1Title": "Steady Gold Income",
+        "step1Description": "Reliable shell routes keep Gold flowing for weapons, armor, and crates.",
+        "step2Title": "Event Currency",
+        "step2Description": "Summer Shells convert into limited pets, artifacts, and event rewards.",
+        "step3Title": "Pet & Gear Upgrades",
+        "step3Description": "Farmed Gold funds egg hatching and the upgrades that drive long-term scaling."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Farming Guides"
+    },
+    "event": {
+      "title": "Giant Simulator Reborn Events",
+      "description": "Giant Simulator Reborn Summer Event guides: summer update details, summer pets, artifacts, and full event progression.",
+      "metaTitle": "Giant Simulator Reborn Events - Summer Event & Update Guide",
+      "metaDescription": "Complete Giant Simulator Reborn event coverage: Summer Event guide, summer update details, summer pets, summer artifacts, and event currency routes.",
+      "categoryLabel": "EVENT GUIDE",
+      "whatIs": "What are Events?",
+      "whatIsDescription": "Events in Giant Simulator Reborn are limited-time updates—like the Summer Event—that introduce exclusive shells, pets, artifacts, and event currencies. They rotate new rewards and progression paths that only run during the event window, making timely play essential for collecting limited items before they leave the pool.",
+      "why": "Why play events?",
+      "whySteps": {
+        "step1Title": "Limited Pets & Artifacts",
+        "step1Description": "Event-exclusive pets and artifacts only spawn during the event window.",
+        "step2Title": "Bonus Currencies",
+        "step2Description": "Summer Shells and event tokens stack on top of normal Gold income.",
+        "step3Title": "New Progression Paths",
+        "step3Description": "Events add fresh routes and objectives that break up the core grind."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Event Guides"
+    },
+    "pets": {
+      "title": "Giant Simulator Reborn Pets",
+      "description": "Giant Simulator Reborn pet guides: the best pets, evolved pets, evo mechanics, and Coco pet strategies for damage and gold boosts.",
+      "metaTitle": "Giant Simulator Reborn Pets - Best & Evolved Pets Guide",
+      "metaDescription": "Find the best pets in Giant Simulator Reborn, learn evolved and evo pet mechanics, and optimize Coco pet builds for damage, gold, and XP boosts.",
+      "categoryLabel": "PETS GUIDE",
+      "whatIs": "What are Pets?",
+      "whatIsDescription": "Pets in Giant Simulator Reborn are hatchable companions that passively boost your damage, gold gain, and XP rate. Hatching, upgrading, and eventually evolving pets into their evo forms multiplies these bonuses, and tiered pets like the Coco pet offer some of the strongest late-game scaling when paired with the right gear and rebirth setup.",
+      "why": "Why build pets?",
+      "whySteps": {
+        "step1Title": "Passive Damage & Gold",
+        "step1Description": "Pets multiply your damage output and gold gain in the background.",
+        "step2Title": "Evolutions",
+        "step2Description": "Evolving pets into evo forms unlocks their strongest stats.",
+        "step3Title": "Late-Game Scaling",
+        "step3Description": "Top-tier pets like Coco drive leaderboard-level performance."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Pets Guides"
+    },
+    "locations": {
+      "title": "Giant Simulator Reborn Locations",
+      "description": "Giant Simulator Reborn locations and collectibles: Golden Egg locations, eggs, secrets, artifacts, weapons, and private server access.",
+      "metaTitle": "Giant Simulator Reborn Locations - Golden Eggs, Secrets & Artifacts",
+      "metaDescription": "Find every Giant Simulator Reborn location: Golden Egg spots, eggs, secrets, artifacts, weapons, and how to join a private server for uninterrupted farming.",
+      "categoryLabel": "LOCATIONS & SECRETS",
+      "whatIs": "What are Locations?",
+      "whatIsDescription": "Locations in Giant Simulator Reborn cover the maps, collectibles, and hidden items scattered across the game—Golden Egg spawns, eggs, secrets, artifacts, and weapon stashes. Tracking these locations unlocks free gear, bonus rewards, and exclusive items, while private servers offer lag-free farming away from crowded public lobbies.",
+      "why": "Why explore locations?",
+      "whySteps": {
+        "step1Title": "Free Gear & Rewards",
+        "step1Description": "Golden Eggs, secrets, and artifacts hand out free weapons and bonuses.",
+        "step2Title": "Complete Collections",
+        "step2Description": "Map every location to finish egg, artifact, and weapon sets.",
+        "step3Title": "Private Server Farming",
+        "step3Description": "Private servers remove competition for high-value spawns."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Locations Guides"
     }
   }
 }

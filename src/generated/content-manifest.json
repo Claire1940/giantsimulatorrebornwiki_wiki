@@ -1,1 +1,714 @@
-{}
+{
+  "en": {
+    "codes": [
+      {
+        "slug": "giant-simulator-reborn-codes",
+        "file": "giant-simulator-reborn-codes"
+      }
+    ],
+    "event": [
+      {
+        "slug": "giant-simulator-reborn-summer-artifacts",
+        "file": "giant-simulator-reborn-summer-artifacts"
+      },
+      {
+        "slug": "giant-simulator-reborn-summer-event-guide",
+        "file": "giant-simulator-reborn-summer-event-guide"
+      },
+      {
+        "slug": "giant-simulator-reborn-summer-event",
+        "file": "giant-simulator-reborn-summer-event"
+      },
+      {
+        "slug": "giant-simulator-reborn-summer-pets",
+        "file": "giant-simulator-reborn-summer-pets"
+      },
+      {
+        "slug": "giant-simulator-reborn-summer-update",
+        "file": "giant-simulator-reborn-summer-update"
+      }
+    ],
+    "farming": [
+      {
+        "slug": "giant-simulator-reborn-best-shell-farm",
+        "file": "giant-simulator-reborn-best-shell-farm"
+      },
+      {
+        "slug": "giant-simulator-reborn-gold-farm",
+        "file": "giant-simulator-reborn-gold-farm"
+      },
+      {
+        "slug": "giant-simulator-reborn-how-to-get-gold",
+        "file": "giant-simulator-reborn-how-to-get-gold"
+      },
+      {
+        "slug": "giant-simulator-reborn-how-to-get-shells-fast",
+        "file": "giant-simulator-reborn-how-to-get-shells-fast"
+      },
+      {
+        "slug": "giant-simulator-reborn-shells",
+        "file": "giant-simulator-reborn-shells"
+      },
+      {
+        "slug": "giant-simulator-reborn-summer-shells",
+        "file": "giant-simulator-reborn-summer-shells"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "giant-simulator-reborn-beginner-guide",
+        "file": "giant-simulator-reborn-beginner-guide"
+      },
+      {
+        "slug": "giant-simulator-reborn-f2p-guide",
+        "file": "giant-simulator-reborn-f2p-guide"
+      },
+      {
+        "slug": "giant-simulator-reborn-guide",
+        "file": "giant-simulator-reborn-guide"
+      },
+      {
+        "slug": "giant-simulator-reborn-new-player-guide",
+        "file": "giant-simulator-reborn-new-player-guide"
+      },
+      {
+        "slug": "giant-simulator-reborn-noob-to-pro",
+        "file": "giant-simulator-reborn-noob-to-pro"
+      },
+      {
+        "slug": "giant-simulator-reborn-tips",
+        "file": "giant-simulator-reborn-tips"
+      }
+    ],
+    "leveling": [
+      {
+        "slug": "giant-simulator-reborn-fastest-leveling",
+        "file": "giant-simulator-reborn-fastest-leveling"
+      },
+      {
+        "slug": "giant-simulator-reborn-highest-level",
+        "file": "giant-simulator-reborn-highest-level"
+      },
+      {
+        "slug": "giant-simulator-reborn-level-10-minutes",
+        "file": "giant-simulator-reborn-level-10-minutes"
+      },
+      {
+        "slug": "giant-simulator-reborn-level-300-million",
+        "file": "giant-simulator-reborn-level-300-million"
+      },
+      {
+        "slug": "giant-simulator-reborn-level-up-fast",
+        "file": "giant-simulator-reborn-level-up-fast"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "giant-simulator-reborn-artifacts",
+        "file": "giant-simulator-reborn-artifacts"
+      },
+      {
+        "slug": "giant-simulator-reborn-eggs",
+        "file": "giant-simulator-reborn-eggs"
+      },
+      {
+        "slug": "giant-simulator-reborn-golden-egg-locations",
+        "file": "giant-simulator-reborn-golden-egg-locations"
+      },
+      {
+        "slug": "giant-simulator-reborn-private-server",
+        "file": "giant-simulator-reborn-private-server"
+      },
+      {
+        "slug": "giant-simulator-reborn-secrets",
+        "file": "giant-simulator-reborn-secrets"
+      },
+      {
+        "slug": "giant-simulator-reborn-weapons",
+        "file": "giant-simulator-reborn-weapons"
+      }
+    ],
+    "pets": [
+      {
+        "slug": "giant-simulator-reborn-best-pets",
+        "file": "giant-simulator-reborn-best-pets"
+      },
+      {
+        "slug": "giant-simulator-reborn-coco-pet",
+        "file": "giant-simulator-reborn-coco-pet"
+      },
+      {
+        "slug": "giant-simulator-reborn-evo-pet",
+        "file": "giant-simulator-reborn-evo-pet"
+      },
+      {
+        "slug": "giant-simulator-reborn-evolved-pets",
+        "file": "giant-simulator-reborn-evolved-pets"
+      },
+      {
+        "slug": "giant-simulator-reborn-pets",
+        "file": "giant-simulator-reborn-pets"
+      }
+    ],
+    "rebirth": [
+      {
+        "slug": "giant-simulator-reborn-rebirth-guide",
+        "file": "giant-simulator-reborn-rebirth-guide"
+      },
+      {
+        "slug": "giant-simulator-reborn-rebirth-rewards",
+        "file": "giant-simulator-reborn-rebirth-rewards"
+      },
+      {
+        "slug": "giant-simulator-reborn-rebirth",
+        "file": "giant-simulator-reborn-rebirth"
+      },
+      {
+        "slug": "giant-simulator-reborn-skill-farming",
+        "file": "giant-simulator-reborn-skill-farming"
+      },
+      {
+        "slug": "giant-simulator-reborn-soul-gems",
+        "file": "giant-simulator-reborn-soul-gems"
+      },
+      {
+        "slug": "giant-simulator-reborn-when-to-rebirth",
+        "file": "giant-simulator-reborn-when-to-rebirth"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "giant-simulator-reborn-codes",
+        "file": "giant-simulator-reborn-codes"
+      }
+    ],
+    "event": [
+      {
+        "slug": "giant-simulator-reborn-summer-artifacts",
+        "file": "giant-simulator-reborn-summer-artifacts"
+      },
+      {
+        "slug": "giant-simulator-reborn-summer-event-guide",
+        "file": "giant-simulator-reborn-summer-event-guide"
+      },
+      {
+        "slug": "giant-simulator-reborn-summer-event",
+        "file": "giant-simulator-reborn-summer-event"
+      },
+      {
+        "slug": "giant-simulator-reborn-summer-pets",
+        "file": "giant-simulator-reborn-summer-pets"
+      },
+      {
+        "slug": "giant-simulator-reborn-summer-update",
+        "file": "giant-simulator-reborn-summer-update"
+      }
+    ],
+    "farming": [
+      {
+        "slug": "giant-simulator-reborn-best-shell-farm",
+        "file": "giant-simulator-reborn-best-shell-farm"
+      },
+      {
+        "slug": "giant-simulator-reborn-gold-farm",
+        "file": "giant-simulator-reborn-gold-farm"
+      },
+      {
+        "slug": "giant-simulator-reborn-how-to-get-gold",
+        "file": "giant-simulator-reborn-how-to-get-gold"
+      },
+      {
+        "slug": "giant-simulator-reborn-how-to-get-shells-fast",
+        "file": "giant-simulator-reborn-how-to-get-shells-fast"
+      },
+      {
+        "slug": "giant-simulator-reborn-shells",
+        "file": "giant-simulator-reborn-shells"
+      },
+      {
+        "slug": "giant-simulator-reborn-summer-shells",
+        "file": "giant-simulator-reborn-summer-shells"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "giant-simulator-reborn-beginner-guide",
+        "file": "giant-simulator-reborn-beginner-guide"
+      },
+      {
+        "slug": "giant-simulator-reborn-f2p-guide",
+        "file": "giant-simulator-reborn-f2p-guide"
+      },
+      {
+        "slug": "giant-simulator-reborn-guide",
+        "file": "giant-simulator-reborn-guide"
+      },
+      {
+        "slug": "giant-simulator-reborn-new-player-guide",
+        "file": "giant-simulator-reborn-new-player-guide"
+      },
+      {
+        "slug": "giant-simulator-reborn-noob-to-pro",
+        "file": "giant-simulator-reborn-noob-to-pro"
+      },
+      {
+        "slug": "giant-simulator-reborn-tips",
+        "file": "giant-simulator-reborn-tips"
+      }
+    ],
+    "leveling": [
+      {
+        "slug": "giant-simulator-reborn-fastest-leveling",
+        "file": "giant-simulator-reborn-fastest-leveling"
+      },
+      {
+        "slug": "giant-simulator-reborn-highest-level",
+        "file": "giant-simulator-reborn-highest-level"
+      },
+      {
+        "slug": "giant-simulator-reborn-level-10-minutes",
+        "file": "giant-simulator-reborn-level-10-minutes"
+      },
+      {
+        "slug": "giant-simulator-reborn-level-300-million",
+        "file": "giant-simulator-reborn-level-300-million"
+      },
+      {
+        "slug": "giant-simulator-reborn-level-up-fast",
+        "file": "giant-simulator-reborn-level-up-fast"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "giant-simulator-reborn-artifacts",
+        "file": "giant-simulator-reborn-artifacts"
+      },
+      {
+        "slug": "giant-simulator-reborn-eggs",
+        "file": "giant-simulator-reborn-eggs"
+      },
+      {
+        "slug": "giant-simulator-reborn-golden-egg-locations",
+        "file": "giant-simulator-reborn-golden-egg-locations"
+      },
+      {
+        "slug": "giant-simulator-reborn-private-server",
+        "file": "giant-simulator-reborn-private-server"
+      },
+      {
+        "slug": "giant-simulator-reborn-secrets",
+        "file": "giant-simulator-reborn-secrets"
+      },
+      {
+        "slug": "giant-simulator-reborn-weapons",
+        "file": "giant-simulator-reborn-weapons"
+      }
+    ],
+    "pets": [
+      {
+        "slug": "giant-simulator-reborn-best-pets",
+        "file": "giant-simulator-reborn-best-pets"
+      },
+      {
+        "slug": "giant-simulator-reborn-coco-pet",
+        "file": "giant-simulator-reborn-coco-pet"
+      },
+      {
+        "slug": "giant-simulator-reborn-evo-pet",
+        "file": "giant-simulator-reborn-evo-pet"
+      },
+      {
+        "slug": "giant-simulator-reborn-evolved-pets",
+        "file": "giant-simulator-reborn-evolved-pets"
+      },
+      {
+        "slug": "giant-simulator-reborn-pets",
+        "file": "giant-simulator-reborn-pets"
+      }
+    ],
+    "rebirth": [
+      {
+        "slug": "giant-simulator-reborn-rebirth-guide",
+        "file": "giant-simulator-reborn-rebirth-guide"
+      },
+      {
+        "slug": "giant-simulator-reborn-rebirth-rewards",
+        "file": "giant-simulator-reborn-rebirth-rewards"
+      },
+      {
+        "slug": "giant-simulator-reborn-rebirth",
+        "file": "giant-simulator-reborn-rebirth"
+      },
+      {
+        "slug": "giant-simulator-reborn-skill-farming",
+        "file": "giant-simulator-reborn-skill-farming"
+      },
+      {
+        "slug": "giant-simulator-reborn-soul-gems",
+        "file": "giant-simulator-reborn-soul-gems"
+      },
+      {
+        "slug": "giant-simulator-reborn-when-to-rebirth",
+        "file": "giant-simulator-reborn-when-to-rebirth"
+      }
+    ]
+  },
+  "fr": {
+    "codes": [
+      {
+        "slug": "giant-simulator-reborn-codes",
+        "file": "giant-simulator-reborn-codes"
+      }
+    ],
+    "event": [
+      {
+        "slug": "giant-simulator-reborn-summer-artifacts",
+        "file": "giant-simulator-reborn-summer-artifacts"
+      },
+      {
+        "slug": "giant-simulator-reborn-summer-event-guide",
+        "file": "giant-simulator-reborn-summer-event-guide"
+      },
+      {
+        "slug": "giant-simulator-reborn-summer-event",
+        "file": "giant-simulator-reborn-summer-event"
+      },
+      {
+        "slug": "giant-simulator-reborn-summer-pets",
+        "file": "giant-simulator-reborn-summer-pets"
+      },
+      {
+        "slug": "giant-simulator-reborn-summer-update",
+        "file": "giant-simulator-reborn-summer-update"
+      }
+    ],
+    "farming": [
+      {
+        "slug": "giant-simulator-reborn-best-shell-farm",
+        "file": "giant-simulator-reborn-best-shell-farm"
+      },
+      {
+        "slug": "giant-simulator-reborn-gold-farm",
+        "file": "giant-simulator-reborn-gold-farm"
+      },
+      {
+        "slug": "giant-simulator-reborn-how-to-get-gold",
+        "file": "giant-simulator-reborn-how-to-get-gold"
+      },
+      {
+        "slug": "giant-simulator-reborn-how-to-get-shells-fast",
+        "file": "giant-simulator-reborn-how-to-get-shells-fast"
+      },
+      {
+        "slug": "giant-simulator-reborn-shells",
+        "file": "giant-simulator-reborn-shells"
+      },
+      {
+        "slug": "giant-simulator-reborn-summer-shells",
+        "file": "giant-simulator-reborn-summer-shells"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "giant-simulator-reborn-beginner-guide",
+        "file": "giant-simulator-reborn-beginner-guide"
+      },
+      {
+        "slug": "giant-simulator-reborn-f2p-guide",
+        "file": "giant-simulator-reborn-f2p-guide"
+      },
+      {
+        "slug": "giant-simulator-reborn-guide",
+        "file": "giant-simulator-reborn-guide"
+      },
+      {
+        "slug": "giant-simulator-reborn-new-player-guide",
+        "file": "giant-simulator-reborn-new-player-guide"
+      },
+      {
+        "slug": "giant-simulator-reborn-noob-to-pro",
+        "file": "giant-simulator-reborn-noob-to-pro"
+      },
+      {
+        "slug": "giant-simulator-reborn-tips",
+        "file": "giant-simulator-reborn-tips"
+      }
+    ],
+    "leveling": [
+      {
+        "slug": "giant-simulator-reborn-fastest-leveling",
+        "file": "giant-simulator-reborn-fastest-leveling"
+      },
+      {
+        "slug": "giant-simulator-reborn-highest-level",
+        "file": "giant-simulator-reborn-highest-level"
+      },
+      {
+        "slug": "giant-simulator-reborn-level-10-minutes",
+        "file": "giant-simulator-reborn-level-10-minutes"
+      },
+      {
+        "slug": "giant-simulator-reborn-level-300-million",
+        "file": "giant-simulator-reborn-level-300-million"
+      },
+      {
+        "slug": "giant-simulator-reborn-level-up-fast",
+        "file": "giant-simulator-reborn-level-up-fast"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "giant-simulator-reborn-artifacts",
+        "file": "giant-simulator-reborn-artifacts"
+      },
+      {
+        "slug": "giant-simulator-reborn-eggs",
+        "file": "giant-simulator-reborn-eggs"
+      },
+      {
+        "slug": "giant-simulator-reborn-golden-egg-locations",
+        "file": "giant-simulator-reborn-golden-egg-locations"
+      },
+      {
+        "slug": "giant-simulator-reborn-private-server",
+        "file": "giant-simulator-reborn-private-server"
+      },
+      {
+        "slug": "giant-simulator-reborn-secrets",
+        "file": "giant-simulator-reborn-secrets"
+      },
+      {
+        "slug": "giant-simulator-reborn-weapons",
+        "file": "giant-simulator-reborn-weapons"
+      }
+    ],
+    "pets": [
+      {
+        "slug": "giant-simulator-reborn-best-pets",
+        "file": "giant-simulator-reborn-best-pets"
+      },
+      {
+        "slug": "giant-simulator-reborn-coco-pet",
+        "file": "giant-simulator-reborn-coco-pet"
+      },
+      {
+        "slug": "giant-simulator-reborn-evo-pet",
+        "file": "giant-simulator-reborn-evo-pet"
+      },
+      {
+        "slug": "giant-simulator-reborn-evolved-pets",
+        "file": "giant-simulator-reborn-evolved-pets"
+      },
+      {
+        "slug": "giant-simulator-reborn-pets",
+        "file": "giant-simulator-reborn-pets"
+      }
+    ],
+    "rebirth": [
+      {
+        "slug": "giant-simulator-reborn-rebirth-guide",
+        "file": "giant-simulator-reborn-rebirth-guide"
+      },
+      {
+        "slug": "giant-simulator-reborn-rebirth-rewards",
+        "file": "giant-simulator-reborn-rebirth-rewards"
+      },
+      {
+        "slug": "giant-simulator-reborn-rebirth",
+        "file": "giant-simulator-reborn-rebirth"
+      },
+      {
+        "slug": "giant-simulator-reborn-skill-farming",
+        "file": "giant-simulator-reborn-skill-farming"
+      },
+      {
+        "slug": "giant-simulator-reborn-soul-gems",
+        "file": "giant-simulator-reborn-soul-gems"
+      },
+      {
+        "slug": "giant-simulator-reborn-when-to-rebirth",
+        "file": "giant-simulator-reborn-when-to-rebirth"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "giant-simulator-reborn-codes",
+        "file": "giant-simulator-reborn-codes"
+      }
+    ],
+    "event": [
+      {
+        "slug": "giant-simulator-reborn-summer-artifacts",
+        "file": "giant-simulator-reborn-summer-artifacts"
+      },
+      {
+        "slug": "giant-simulator-reborn-summer-event-guide",
+        "file": "giant-simulator-reborn-summer-event-guide"
+      },
+      {
+        "slug": "giant-simulator-reborn-summer-event",
+        "file": "giant-simulator-reborn-summer-event"
+      },
+      {
+        "slug": "giant-simulator-reborn-summer-pets",
+        "file": "giant-simulator-reborn-summer-pets"
+      },
+      {
+        "slug": "giant-simulator-reborn-summer-update",
+        "file": "giant-simulator-reborn-summer-update"
+      }
+    ],
+    "farming": [
+      {
+        "slug": "giant-simulator-reborn-best-shell-farm",
+        "file": "giant-simulator-reborn-best-shell-farm"
+      },
+      {
+        "slug": "giant-simulator-reborn-gold-farm",
+        "file": "giant-simulator-reborn-gold-farm"
+      },
+      {
+        "slug": "giant-simulator-reborn-how-to-get-gold",
+        "file": "giant-simulator-reborn-how-to-get-gold"
+      },
+      {
+        "slug": "giant-simulator-reborn-how-to-get-shells-fast",
+        "file": "giant-simulator-reborn-how-to-get-shells-fast"
+      },
+      {
+        "slug": "giant-simulator-reborn-shells",
+        "file": "giant-simulator-reborn-shells"
+      },
+      {
+        "slug": "giant-simulator-reborn-summer-shells",
+        "file": "giant-simulator-reborn-summer-shells"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "giant-simulator-reborn-beginner-guide",
+        "file": "giant-simulator-reborn-beginner-guide"
+      },
+      {
+        "slug": "giant-simulator-reborn-f2p-guide",
+        "file": "giant-simulator-reborn-f2p-guide"
+      },
+      {
+        "slug": "giant-simulator-reborn-guide",
+        "file": "giant-simulator-reborn-guide"
+      },
+      {
+        "slug": "giant-simulator-reborn-new-player-guide",
+        "file": "giant-simulator-reborn-new-player-guide"
+      },
+      {
+        "slug": "giant-simulator-reborn-noob-to-pro",
+        "file": "giant-simulator-reborn-noob-to-pro"
+      },
+      {
+        "slug": "giant-simulator-reborn-tips",
+        "file": "giant-simulator-reborn-tips"
+      }
+    ],
+    "leveling": [
+      {
+        "slug": "giant-simulator-reborn-fastest-leveling",
+        "file": "giant-simulator-reborn-fastest-leveling"
+      },
+      {
+        "slug": "giant-simulator-reborn-highest-level",
+        "file": "giant-simulator-reborn-highest-level"
+      },
+      {
+        "slug": "giant-simulator-reborn-level-10-minutes",
+        "file": "giant-simulator-reborn-level-10-minutes"
+      },
+      {
+        "slug": "giant-simulator-reborn-level-300-million",
+        "file": "giant-simulator-reborn-level-300-million"
+      },
+      {
+        "slug": "giant-simulator-reborn-level-up-fast",
+        "file": "giant-simulator-reborn-level-up-fast"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "giant-simulator-reborn-artifacts",
+        "file": "giant-simulator-reborn-artifacts"
+      },
+      {
+        "slug": "giant-simulator-reborn-eggs",
+        "file": "giant-simulator-reborn-eggs"
+      },
+      {
+        "slug": "giant-simulator-reborn-golden-egg-locations",
+        "file": "giant-simulator-reborn-golden-egg-locations"
+      },
+      {
+        "slug": "giant-simulator-reborn-private-server",
+        "file": "giant-simulator-reborn-private-server"
+      },
+      {
+        "slug": "giant-simulator-reborn-secrets",
+        "file": "giant-simulator-reborn-secrets"
+      },
+      {
+        "slug": "giant-simulator-reborn-weapons",
+        "file": "giant-simulator-reborn-weapons"
+      }
+    ],
+    "pets": [
+      {
+        "slug": "giant-simulator-reborn-best-pets",
+        "file": "giant-simulator-reborn-best-pets"
+      },
+      {
+        "slug": "giant-simulator-reborn-coco-pet",
+        "file": "giant-simulator-reborn-coco-pet"
+      },
+      {
+        "slug": "giant-simulator-reborn-evo-pet",
+        "file": "giant-simulator-reborn-evo-pet"
+      },
+      {
+        "slug": "giant-simulator-reborn-evolved-pets",
+        "file": "giant-simulator-reborn-evolved-pets"
+      },
+      {
+        "slug": "giant-simulator-reborn-pets",
+        "file": "giant-simulator-reborn-pets"
+      }
+    ],
+    "rebirth": [
+      {
+        "slug": "giant-simulator-reborn-rebirth-guide",
+        "file": "giant-simulator-reborn-rebirth-guide"
+      },
+      {
+        "slug": "giant-simulator-reborn-rebirth-rewards",
+        "file": "giant-simulator-reborn-rebirth-rewards"
+      },
+      {
+        "slug": "giant-simulator-reborn-rebirth",
+        "file": "giant-simulator-reborn-rebirth"
+      },
+      {
+        "slug": "giant-simulator-reborn-skill-farming",
+        "file": "giant-simulator-reborn-skill-farming"
+      },
+      {
+        "slug": "giant-simulator-reborn-soul-gems",
+        "file": "giant-simulator-reborn-soul-gems"
+      },
+      {
+        "slug": "giant-simulator-reborn-when-to-rebirth",
+        "file": "giant-simulator-reborn-when-to-rebirth"
+      }
+    ]
+  }
+}

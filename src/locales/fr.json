@@ -1,1 +1,12 @@
-{}
+{
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "rebirth": "Renaissance",
+    "leveling": "Niveaux",
+    "farming": "Farm",
+    "event": "Événement",
+    "pets": "Pets",
+    "locations": "Lieux"
+  }
+}
