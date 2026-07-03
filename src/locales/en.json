@@ -80,6 +80,26 @@
         "icon": "PawPrint",
         "title": "Pets Guide",
         "description": "Hatch, collect, upgrade, and pair pets with your build"
+      },
+      {
+        "icon": "Gem",
+        "title": "Rebirth and Soul Gems",
+        "description": "When to reset, how to spend Soul Gems, and the recovery loop"
+      },
+      {
+        "icon": "Crown",
+        "title": "Weapons, Gear and Pets Tier List",
+        "description": "Best weapons, armor, pets, and artifacts by progress stage"
+      },
+      {
+        "icon": "Swords",
+        "title": "Bosses, Quests and PvP",
+        "description": "Combat routes, boss priority, quest routing, and PvP survival"
+      },
+      {
+        "icon": "CalendarDays",
+        "title": "Events and Official Links",
+        "description": "Updates, Discord, X, and official Giant Simulator Reborn links"
       }
     ]
   },
@@ -371,6 +391,257 @@
           "what_it_does": "A stronger pet setup helps smooth the path toward the next reset cycle.",
           "player_action": "Improve your pets before pushing into a rebirth-focused session.",
           "best_for": "Players who want faster recovery and stronger long-term growth after rebirth."
+        }
+      ]
+    },
+    "rebirthAndSoulGems": {
+      "eyebrow": "Rebirth Progression",
+      "title": "Giant Simulator Reborn Rebirth and Soul Gems Guide",
+      "subtitle": "Learn when to rebirth, what Soul Gems do, and how to recover quickly after each reset for permanent gains instead of wasting a reset on a weak loop.",
+      "intro": "Rebirth is the main long-term progression system in Giant Simulator Reborn. It resets your current run, grants Soul Gems, improves your future growth, and turns each new cycle into a faster climb toward stronger gear, better pets, and boss farming.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Reach the Rebirth requirement",
+          "summary": "Train, level up, equip stronger weapons and armor, and push until the Rebirth button becomes active.",
+          "details": [
+            "Use the Rebirth tab from the left-side menu when your run is ready.",
+            "The classic Rebirth requirement is Level 100.",
+            "Rebirth should happen after your current run has slowed down and the next reset will make the following climb faster."
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Confirm the reset for Soul Gems",
+          "summary": "Rebirthing resets your current level progress and pays Soul Gems as the permanent reward.",
+          "details": [
+            "Soul Gems are tied to rebirth progression and long-term skill growth.",
+            "Higher progression before rebirth can improve the value of the reset.",
+            "After rebirth, immediately rebuild your basic training loop instead of staying idle at low power."
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Spend Soul Gems on permanent skills",
+          "summary": "Use Soul Gems for upgrades that improve future runs instead of only chasing short-term size.",
+          "details": [
+            "Coin multiplier helps your Gold economy recover faster.",
+            "EXP gain speeds up leveling after each reset.",
+            "Double Weapons / Ambidextrous is a high-value upgrade because it improves weapon-based training output.",
+            "Crit chance supports combat and boss damage.",
+            "Speed gain makes movement, training routes, and farming loops smoother."
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Farm extra Soul Gems after rebirth",
+          "summary": "Rebirth is the main Soul Gem source, but boss and Temple routes also matter once your character is strong enough.",
+          "details": [
+            "Demon King farming is a key Soul Gem route after players can handle the Temple area.",
+            "Soul training in the Temple area gives a passive Soul Gem path.",
+            "Boss progression becomes more valuable after several rebirths because boss damage improves with long-term power."
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Recover with a clean post-rebirth loop",
+          "summary": "The first minutes after rebirth decide whether the reset was useful or wasted on a slow restart.",
+          "details": [
+            "Claim current Gold codes before buying early upgrades.",
+            "Equip the best weapon and armor you can immediately afford.",
+            "Hatch or equip the strongest available pets for your current goal.",
+            "Return to quests and bosses once your damage is high enough for fast clears.",
+            "Repeat the cycle when leveling slows again and the next Soul Gem payout is worth the reset."
+          ]
+        }
+      ]
+    },
+    "weaponsGearAndPetsTierList": {
+      "eyebrow": "Gear Priority",
+      "title": "Giant Simulator Reborn Weapons Gear and Pets Tier List",
+      "subtitle": "Use this tier list as a progression priority map: early gear gets you moving, pets multiply the loop, artifacts support permanent scaling, and event rewards can jump you ahead.",
+      "intro": "Giant Simulator Reborn is built around clicking for XP, growing larger, unlocking better gear, equipping weapons and armor, hatching pets, upgrading pets, and rebirthing for stronger future runs. The best item is usually the one that improves your next loop fastest, not the one with the flashiest rarity label.",
+      "items": [
+        {
+          "tier": "S",
+          "stage": "All stages",
+          "category": "Highest unlocked weapon and armor",
+          "targets": [
+            "Best weapon you can currently equip",
+            "Best armor set you can currently equip",
+            "Current Temple or late-game gear when unlocked"
+          ],
+          "best_for": "XP gain, combat power, faster leveling, boss readiness",
+          "priority_notes": "Always keep your active weapon and armor updated when a new level or Gold milestone unlocks a clear stat increase."
+        },
+        {
+          "tier": "S",
+          "stage": "Event and post-rebirth",
+          "category": "Event evolved pets and event artifacts",
+          "targets": [
+            "Summer Event evolved pets",
+            "Limited event artifacts",
+            "Event currency upgrades",
+            "Summer Shell farming rewards"
+          ],
+          "best_for": "Fast catch-up, limited-time progression, stronger reset recovery",
+          "priority_notes": "During active events, limited pets and artifacts can become the fastest way to push growth because they sit outside the normal shop ladder."
+        },
+        {
+          "tier": "A",
+          "stage": "Mid-game and rebirth loops",
+          "category": "Soul Gem and Quest Point scaling",
+          "targets": [
+            "2X Soul Gems",
+            "2X Quest Points",
+            "+2 Max Artifacts",
+            "Soul Gem skill upgrades"
+          ],
+          "best_for": "Permanent progression, artifacts, rebirth efficiency",
+          "priority_notes": "Soul Gem and Quest Point scaling matters most once you are already rebirthing and completing quests consistently."
+        },
+        {
+          "tier": "A",
+          "stage": "Early to late-game",
+          "category": "Pet team upgrades",
+          "targets": [
+            "Best currently equipped pets",
+            "Upgraded pets that grow with you",
+            "+2 Max Pets Equipped",
+            "+4 Max Pets Equipped"
+          ],
+          "best_for": "Training speed, Gold flow, XP growth, event farming",
+          "priority_notes": "A full active pet team is usually better than holding unused pets in inventory, because equipped pets directly support the main growth loop."
+        },
+        {
+          "tier": "B",
+          "stage": "Beginner and first rebirth",
+          "category": "Starter shop gear and first pets",
+          "targets": [
+            "First affordable sword",
+            "First armor set",
+            "First hatched pets",
+            "Early Gold-funded upgrades"
+          ],
+          "best_for": "First session progress, early leveling, first Rebirth setup",
+          "priority_notes": "Starter gear is valuable only while it speeds up the next unlock. Replace it quickly when better gear becomes available."
+        },
+        {
+          "tier": "C",
+          "stage": "Outleveled content",
+          "category": "Old gear, weak duplicates, and inactive pets",
+          "targets": [
+            "Outdated weapons",
+            "Outdated armor",
+            "Low-value duplicate pets",
+            "Cosmetic-only setups with no progression value"
+          ],
+          "best_for": "Collection only",
+          "priority_notes": "Do not let old items decide your active build. Keep the strongest progression setup equipped, because nostalgia does not farm Gold."
+        }
+      ]
+    },
+    "bossesQuestsAndPvpGuide": {
+      "eyebrow": "Combat Guide",
+      "title": "Giant Simulator Reborn Bosses Quests and PvP Guide",
+      "subtitle": "Use combat, quests, and boss routes to turn training into real progress. Grow, gear up, and hold your ground against stronger players on the leaderboard.",
+      "intro": "Combat in Giant Simulator Reborn connects directly to the main simulator loop. You click to gain XP, grow larger, unlock better gear, equip weapons and armor, hatch pets, complete quests, fight bosses, and rebirth when the reset gives better long-term power.",
+      "items": [
+        {
+          "title": "Core combat loop",
+          "content": "Train for XP, level up, unlock stronger gear, equip weapons and armor, hatch and upgrade pets, then use that power to clear quests and bosses faster.",
+          "tips": [
+            "Upgrade gear when the next purchase gives faster XP or boss clears.",
+            "Keep pets equipped instead of treating them like inventory decorations.",
+            "Use rebirth skills to improve Gold, EXP, crit, speed, and weapon output across future runs."
+          ]
+        },
+        {
+          "title": "Boss priority",
+          "content": "Borock is the early boss target, while Demon King becomes important once you can handle the Temple route and want Soul Gem-focused progression.",
+          "tips": [
+            "Use early boss fights to test whether your damage is ready for quests.",
+            "Move to Demon King farming when your weapon, armor, pets, and rebirth skills make clears efficient.",
+            "Boss damage becomes more meaningful after repeated rebirth cycles."
+          ]
+        },
+        {
+          "title": "Quest routing",
+          "content": "Quest tasks include defeating Gnomes, collecting Orbs, defeating Borock, defeating Demon King, collecting Golden Eggs, and mining meteors. Quest rewards include Gold, Experience, and Quest Points.",
+          "tips": [
+            "Take quests that match what you are already farming.",
+            "Prioritize fast boss or collection tasks when you need Quest Points for artifact progress.",
+            "Do not abandon the main upgrade loop just to chase a slow quest with poor timing."
+          ]
+        },
+        {
+          "title": "PvP survival",
+          "content": "PvP is easier after your level, gear, pets, speed, and rebirth upgrades can support real movement and damage. New players should avoid fighting high-power giants until their build can recover quickly.",
+          "tips": [
+            "Train and upgrade before picking fights with visibly stronger players.",
+            "Use quieter servers when you want safer farming or event collection.",
+            "Spend Gold on useful upgrades before entering risky combat areas."
+          ]
+        },
+        {
+          "title": "When to change gear or farming target",
+          "content": "Change weapons, armor, pets, or farming routes when your current setup no longer improves leveling speed, Gold gain, quest clears, or boss farming.",
+          "tips": [
+            "If leveling slows, upgrade weapon and armor first.",
+            "If Gold slows, improve pets, coin skills, and Gold routes.",
+            "If boss clears are slow, delay the boss route until your damage and crit setup improves.",
+            "If a new event is active, check event pets, artifacts, and event currency before grinding normal routes."
+          ]
+        }
+      ]
+    },
+    "eventsUpdatesAndOfficialLinks": {
+      "eyebrow": "Updates and Links",
+      "title": "Giant Simulator Reborn Events Updates and Official Links",
+      "subtitle": "Use these links to track new updates, event rewards, codes, server activity, and community announcements without relying on copied posts and stale code lists.",
+      "intro": "Giant Simulator Reborn updates are best tracked through the Roblox game page, Mithril Games community pages, the official Discord invite, and the Mithril Games X account. Event-focused players should also watch current gameplay showcases for limited pets, artifacts, event currency, and Summer Shell routes.",
+      "items": [
+        {
+          "label": "Play Giant Simulator Reborn",
+          "type": "official-game-page",
+          "url": "https://www.roblox.com/games/12645083079/Giant-Simulator-REBORN",
+          "description": "Main Roblox experience page for launching the game, checking the description, opening store items, viewing servers, and following the game.",
+          "use_for": "Play link, official game description, store tab, servers, updates"
+        },
+        {
+          "label": "Mithril Games Roblox Community",
+          "type": "official-roblox-community",
+          "url": "https://www.roblox.com/communities/3497226/Mithril-Games",
+          "description": "Roblox community page for Mithril Games, the developer group behind Giant Simulator Reborn.",
+          "use_for": "Developer community, group membership, Roblox-side updates"
+        },
+        {
+          "label": "Official Mithril Games Discord",
+          "type": "official-discord",
+          "url": "https://discord.com/invite/f7eMMSjBbh",
+          "description": "Community hub for announcements, update discussion, code drops, events, and player activity.",
+          "use_for": "Codes, event announcements, update notes, player support"
+        },
+        {
+          "label": "Mithril Games on X",
+          "type": "official-social",
+          "url": "https://x.com/MithrilGames",
+          "description": "Official social account for Mithril Games, creators of Giant Simulator and other Roblox experiences.",
+          "use_for": "News, event posts, social updates, contest tracking"
+        },
+        {
+          "label": "Live Roblox Game Data",
+          "type": "game-data",
+          "url": "https://www.rolimons.com/game/12645083079",
+          "description": "Live third-party Roblox game data page showing players, visits, rating, favorites, average playtime, peak CCU, update timing, and listed gamepasses.",
+          "use_for": "Traffic checks, gamepass list, update timing, popularity signals"
+        },
+        {
+          "label": "Summer Event Showcase",
+          "type": "event-video",
+          "url": "https://www.youtube.com/watch?v=14Hia0RW16Q",
+          "description": "Gameplay showcase focused on the Giant Simulator Reborn Summer Event, evolved pets, artifacts, and event progression.",
+          "use_for": "Summer Event pets, artifacts, event currency, showcase reference"
         }
       ]
     }

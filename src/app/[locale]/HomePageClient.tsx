@@ -3,18 +3,31 @@
 import { useState, Suspense, lazy } from "react";
 import {
   ArrowRight,
+  AtSign,
+  BarChart3,
   BookOpen,
   Check,
   ChevronDown,
   Coins,
   Copy,
+  ExternalLink,
+  Gamepad2,
   Gift,
+  ListChecks,
+  MessageCircle,
   PawPrint,
+  RefreshCw,
+  Shield,
+  Skull,
   Sparkles,
   Target,
   TrendingUp,
   Trophy,
+  Users,
+  Wrench,
+  Youtube,
   Zap,
+  type LucideIcon,
 } from "lucide-react";
 import Link from "next/link";
 import { useMessages } from "next-intl";
@@ -50,6 +63,10 @@ const TOOL_CARD_SECTION_IDS = [
   "beginner-guide",
   "leveling-gold-farming",
   "pets-guide",
+  "rebirth-and-soul-gems",
+  "weapons-gear-and-pets-tier-list",
+  "bosses-quests-and-pvp-guide",
+  "events-updates-and-official-links",
 ] as const;
 
 // Priority badge styles for the leveling/gold-farming module.
@@ -79,6 +96,45 @@ const CATEGORY_STYLES: Record<string, string> = {
     "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]",
   Rebirth: "bg-rose-500/10 border-rose-500/30 text-rose-300",
 };
+
+// Tier badge styles for the weapons/gear/pets tier list module.
+const TIER_STYLES: Record<string, string> = {
+  S: "bg-[hsl(var(--nav-theme)/0.2)] border-[hsl(var(--nav-theme)/0.5)] text-[hsl(var(--nav-theme-light))]",
+  A: "bg-emerald-500/15 border-emerald-500/40 text-emerald-300",
+  B: "bg-amber-500/15 border-amber-500/40 text-amber-300",
+  C: "bg-slate-500/15 border-slate-500/40 text-slate-300",
+};
+
+// Link-type badge styles for the events & official links module.
+const LINK_TYPE_STYLES: Record<string, string> = {
+  "official-game-page":
+    "bg-[hsl(var(--nav-theme)/0.15)] border-[hsl(var(--nav-theme)/0.4)] text-[hsl(var(--nav-theme-light))]",
+  "official-roblox-community":
+    "bg-[hsl(var(--nav-theme)/0.15)] border-[hsl(var(--nav-theme)/0.4)] text-[hsl(var(--nav-theme-light))]",
+  "official-discord": "bg-indigo-500/15 border-indigo-500/40 text-indigo-300",
+  "official-social": "bg-sky-500/15 border-sky-500/40 text-sky-300",
+  "game-data": "bg-emerald-500/15 border-emerald-500/40 text-emerald-300",
+  "event-video": "bg-rose-500/15 border-rose-500/40 text-rose-300",
+};
+
+// Distinct icon per official-link type (no duplicates within the grid).
+const LINK_TYPE_ICONS: Record<string, LucideIcon> = {
+  "official-game-page": Gamepad2,
+  "official-roblox-community": Users,
+  "official-discord": MessageCircle,
+  "official-social": AtSign,
+  "game-data": BarChart3,
+  "event-video": Youtube,
+};
+
+// Distinct icon per combat accordion item (mapped by index, no duplicates).
+const COMBAT_ITEM_ICONS: LucideIcon[] = [
+  RefreshCw,
+  Skull,
+  ListChecks,
+  Shield,
+  Wrench,
+];
 
 interface HomePageClientProps {
   latestArticles: ContentItemWithType[];
@@ -184,6 +240,7 @@ export default function HomePageClient({
   };
 
   const [faqExpanded, setFaqExpanded] = useState<number | null>(null);
+  const [combatExpanded, setCombatExpanded] = useState<number | null>(0);
   const [codesExpanded, setCodesExpanded] = useState(false);
   const [copiedCode, setCopiedCode] = useState<string | null>(null);
   const mobileBannerAd = getPreferredMobileBannerSelection();
@@ -671,6 +728,257 @@ export default function HomePageClient({
                 </p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 5: Giant Simulator Reborn Rebirth and Soul Gems Guide (step-by-step timeline) */}
+      <section id="rebirth-and-soul-gems" className="scroll-mt-24 px-4 py-14 md:py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="mb-8 text-center scroll-reveal md:mb-12">
+            <span className="mb-3 inline-block rounded-full border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.1)] px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[hsl(var(--nav-theme-light))]">
+              {t.modules.rebirthAndSoulGems.eyebrow}
+            </span>
+            <h2 className="mb-3 text-3xl font-bold md:mb-4 md:text-5xl">
+              <ModuleTitle>{t.modules.rebirthAndSoulGems.title}</ModuleTitle>
+            </h2>
+            <p className="mx-auto mb-3 max-w-3xl text-base text-muted-foreground md:text-lg">
+              {t.modules.rebirthAndSoulGems.subtitle}
+            </p>
+            <p className="mx-auto max-w-3xl text-sm text-muted-foreground md:text-base">
+              {t.modules.rebirthAndSoulGems.intro}
+            </p>
+          </div>
+
+          <div className="relative scroll-reveal">
+            {/* Vertical timeline line running through the numbered nodes */}
+            <div
+              className="pointer-events-none absolute left-6 top-4 bottom-4 w-0.5 -translate-x-1/2 bg-gradient-to-b from-[hsl(var(--nav-theme)/0.6)] via-[hsl(var(--nav-theme)/0.25)] to-transparent"
+              aria-hidden="true"
+            />
+            <div className="space-y-4 md:space-y-5">
+              {t.modules.rebirthAndSoulGems.items.map((step: any, index: number) => (
+                <div key={index} className="relative flex items-start gap-4 md:gap-6">
+                  <div className="relative z-10 flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full border-2 border-[hsl(var(--nav-theme)/0.5)] bg-[hsl(var(--nav-theme)/0.15)] shadow-lg shadow-[hsl(var(--nav-theme)/0.15)]">
+                    <span className="text-lg font-bold text-[hsl(var(--nav-theme-light))]">
+                      {step.step}
+                    </span>
+                  </div>
+                  <div className="flex-1 rounded-xl border border-border bg-white/5 p-4 transition-colors hover:border-[hsl(var(--nav-theme)/0.5)] md:p-6">
+                    <h3 className="mb-2 text-base font-bold md:text-lg">
+                      <ModuleTitle>{step.title}</ModuleTitle>
+                    </h3>
+                    <p className="mb-3 text-sm text-muted-foreground md:text-base">
+                      {step.summary}
+                    </p>
+                    <ul className="space-y-1.5">
+                      {step.details.map((d: string, i: number) => (
+                        <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
+                          <Check className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                          <span>{d}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 6: Giant Simulator Reborn Weapons Gear and Pets Tier List (tier-grid) */}
+      <section id="weapons-gear-and-pets-tier-list" className="scroll-mt-24 bg-white/[0.02] px-4 py-14 md:py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="mb-8 text-center scroll-reveal md:mb-12">
+            <span className="mb-3 inline-block rounded-full border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.1)] px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[hsl(var(--nav-theme-light))]">
+              {t.modules.weaponsGearAndPetsTierList.eyebrow}
+            </span>
+            <h2 className="mb-3 text-3xl font-bold md:mb-4 md:text-5xl">
+              <ModuleTitle>{t.modules.weaponsGearAndPetsTierList.title}</ModuleTitle>
+            </h2>
+            <p className="mx-auto mb-3 max-w-3xl text-base text-muted-foreground md:text-lg">
+              {t.modules.weaponsGearAndPetsTierList.subtitle}
+            </p>
+            <p className="mx-auto max-w-3xl text-sm text-muted-foreground md:text-base">
+              {t.modules.weaponsGearAndPetsTierList.intro}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 gap-4 scroll-reveal sm:grid-cols-2 lg:grid-cols-3">
+            {t.modules.weaponsGearAndPetsTierList.items.map((item: any, index: number) => (
+              <div
+                key={index}
+                className="flex flex-col rounded-xl border border-border bg-white/5 p-5 transition-colors hover:border-[hsl(var(--nav-theme)/0.5)] md:p-6"
+              >
+                <div className="mb-3 flex items-center justify-between gap-2">
+                  <span
+                    className={`inline-flex h-9 w-9 items-center justify-center rounded-lg border text-base font-extrabold ${TIER_STYLES[item.tier] || "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]"}`}
+                  >
+                    {item.tier}
+                  </span>
+                  <span className="text-right text-xs text-muted-foreground">{item.stage}</span>
+                </div>
+                <h3 className="mb-3 text-base font-bold leading-snug md:text-lg">
+                  <ModuleTitle>{item.category}</ModuleTitle>
+                </h3>
+                <ul className="mb-3 space-y-1.5">
+                  {item.targets.map((tg: string, i: number) => (
+                    <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
+                      <Check className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                      <span>{tg}</span>
+                    </li>
+                  ))}
+                </ul>
+                <p className="mt-auto text-xs text-muted-foreground">
+                  <span className="font-semibold text-foreground">Best for: </span>
+                  {item.best_for}
+                </p>
+                <p className="mt-2 border-t border-border pt-2 text-xs text-muted-foreground">
+                  {item.priority_notes}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位 6: 新模块中段阅读停顿位 */}
+      <AdBanner
+        type="banner-300x250"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250}
+        className="md:hidden"
+      />
+      <AdBanner
+        type="banner-728x90"
+        adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90}
+        className="hidden md:flex"
+      />
+
+      {/* Module 7: Giant Simulator Reborn Bosses Quests and PvP Guide (accordion) */}
+      <section id="bosses-quests-and-pvp-guide" className="scroll-mt-24 px-4 py-14 md:py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="mb-8 text-center scroll-reveal md:mb-12">
+            <span className="mb-3 inline-block rounded-full border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.1)] px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[hsl(var(--nav-theme-light))]">
+              {t.modules.bossesQuestsAndPvpGuide.eyebrow}
+            </span>
+            <h2 className="mb-3 text-3xl font-bold md:mb-4 md:text-5xl">
+              <ModuleTitle>{t.modules.bossesQuestsAndPvpGuide.title}</ModuleTitle>
+            </h2>
+            <p className="mx-auto mb-3 max-w-3xl text-base text-muted-foreground md:text-lg">
+              {t.modules.bossesQuestsAndPvpGuide.subtitle}
+            </p>
+            <p className="mx-auto max-w-3xl text-sm text-muted-foreground md:text-base">
+              {t.modules.bossesQuestsAndPvpGuide.intro}
+            </p>
+          </div>
+
+          <div className="space-y-3 scroll-reveal">
+            {t.modules.bossesQuestsAndPvpGuide.items.map((item: any, index: number) => {
+              const Icon = COMBAT_ITEM_ICONS[index] || Target;
+              const isOpen = combatExpanded === index;
+              return (
+                <div
+                  key={index}
+                  className="overflow-hidden rounded-xl border border-border bg-white/5 transition-colors hover:border-[hsl(var(--nav-theme)/0.4)]"
+                >
+                  <button
+                    onClick={() => setCombatExpanded(isOpen ? null : index)}
+                    className="flex w-full items-center gap-3 p-4 text-left transition-colors hover:bg-white/5 md:gap-4 md:p-5"
+                    aria-expanded={isOpen}
+                  >
+                    <span className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.12)] text-[hsl(var(--nav-theme-light))]">
+                      <Icon className="h-5 w-5" />
+                    </span>
+                    <span className="flex-1 font-semibold md:text-lg">
+                      <ModuleTitle>{item.title}</ModuleTitle>
+                    </span>
+                    <ChevronDown
+                      className={`h-5 w-5 flex-shrink-0 text-muted-foreground transition-transform ${isOpen ? "rotate-180" : ""}`}
+                    />
+                  </button>
+                  {isOpen && (
+                    <div className="border-t border-border p-4 md:p-5">
+                      <div className="grid grid-cols-1 gap-4 md:grid-cols-5">
+                        <p className="text-sm leading-6 text-muted-foreground md:col-span-3">
+                          {item.content}
+                        </p>
+                        <ul className="space-y-2 md:col-span-2">
+                          {item.tips.map((tip: string, i: number) => (
+                            <li
+                              key={i}
+                              className="flex items-start gap-2 rounded-lg bg-white/[0.04] p-2.5 text-xs text-muted-foreground"
+                            >
+                              <Target className="mt-0.5 h-3.5 w-3.5 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                              <span>{tip}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 8: Giant Simulator Reborn Events Updates and Official Links (link-cards) */}
+      <section id="events-updates-and-official-links" className="scroll-mt-24 bg-white/[0.02] px-4 py-14 md:py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="mb-8 text-center scroll-reveal md:mb-12">
+            <span className="mb-3 inline-block rounded-full border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.1)] px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[hsl(var(--nav-theme-light))]">
+              {t.modules.eventsUpdatesAndOfficialLinks.eyebrow}
+            </span>
+            <h2 className="mb-3 text-3xl font-bold md:mb-4 md:text-5xl">
+              <ModuleTitle>{t.modules.eventsUpdatesAndOfficialLinks.title}</ModuleTitle>
+            </h2>
+            <p className="mx-auto mb-3 max-w-3xl text-base text-muted-foreground md:text-lg">
+              {t.modules.eventsUpdatesAndOfficialLinks.subtitle}
+            </p>
+            <p className="mx-auto max-w-3xl text-sm text-muted-foreground md:text-base">
+              {t.modules.eventsUpdatesAndOfficialLinks.intro}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 gap-4 scroll-reveal sm:grid-cols-2 lg:grid-cols-3">
+            {t.modules.eventsUpdatesAndOfficialLinks.items.map((item: any, index: number) => {
+              const Icon = LINK_TYPE_ICONS[item.type] || ExternalLink;
+              return (
+                <a
+                  key={index}
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex flex-col rounded-xl border border-border bg-white/5 p-5 transition-all hover:border-[hsl(var(--nav-theme)/0.5)] hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.08)] md:p-6"
+                >
+                  <div className="mb-3 flex items-center justify-between gap-2">
+                    <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))] transition-colors group-hover:bg-[hsl(var(--nav-theme)/0.2)]">
+                      <Icon className="h-5 w-5" />
+                    </span>
+                    <span
+                      className={`inline-flex flex-shrink-0 items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider ${LINK_TYPE_STYLES[item.type] || "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]"}`}
+                    >
+                      {item.type.replace(/-/g, " ")}
+                    </span>
+                  </div>
+                  <h3 className="mb-2 text-base font-bold leading-snug md:text-lg">
+                    <ModuleTitle>{item.label}</ModuleTitle>
+                  </h3>
+                  <p className="mb-3 text-sm leading-6 text-muted-foreground">
+                    {item.description}
+                  </p>
+                  <p className="mt-auto text-xs text-muted-foreground">
+                    <span className="font-semibold text-foreground">Use for: </span>
+                    {item.use_for}
+                  </p>
+                  <span className="mt-3 inline-flex items-center gap-1 border-t border-border pt-3 text-sm font-semibold text-[hsl(var(--nav-theme-light))]">
+                    Visit link <ExternalLink className="h-3.5 w-3.5" />
+                  </span>
+                </a>
+              );
+            })}
           </div>
         </div>
       </section>
