@@ -27,6 +27,11 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Star: LucideIcons.Star,
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
+  // Giant Simulator Reborn 工具卡图标
+  Gift: LucideIcons.Gift,
+  Compass: LucideIcons.Compass,
+  Coins: LucideIcons.Coins,
+  PawPrint: LucideIcons.PawPrint,
 
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,

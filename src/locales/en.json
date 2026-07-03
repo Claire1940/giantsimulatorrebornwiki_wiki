@@ -7,14 +7,14 @@
       "ogTitle": "Giant Simulator Reborn Wiki - Codes, Pets & Rebirth",
       "ogDescription": "Giant Simulator Reborn Wiki covers codes, pets, rebirth, gear, bosses, gold farming, event rewards, and beginner routes for Roblox players in one hub.",
       "twitterTitle": "Giant Simulator Reborn Wiki - Codes, Pets & Rebirth",
-      "twitterDescription": "Giant Simulator Reborn Wiki covers codes, pets, rebirth, gear, bosses, and gold farming for Roblox players."
+      "twitterDescription": "Giant Simulator Reborn Wiki covers codes, pets, rebirth, bosses, and gold farming for Roblox players."
     }
   },
   "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -53,696 +53,324 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Giant Simulator Reborn Gameplay",
+    "description": "Click to gain XP, grow into a massive giant, unlock weapons and armor, hatch pets, rebirth for stronger scaling, and climb the Roblox leaderboards in this giant growth simulator."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Giant Simulator Reborn",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Codes, beginner routes, leveling, gold farming, and pets — your core Giant Simulator Reborn toolkit.",
     "cards": [
       {
-        "icon": "BookOpen",
+        "icon": "Gift",
+        "title": "Giant Simulator Reborn Codes",
+        "description": "Active codes, free Gold rewards, and the redeem steps"
+      },
+      {
+        "icon": "Compass",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "First-hour growth loop: click, gear, hatch, and fight"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Coins",
+        "title": "Leveling and Gold Farming",
+        "description": "Fast XP routes and a clear Gold spending priority"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "PawPrint",
+        "title": "Pets Guide",
+        "description": "Hatch, collect, upgrade, and pair pets with your build"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
-      "steps": [
-        {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
-        },
-        {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
-        },
-        {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
-        },
-        {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "codes": {
+      "eyebrow": "Free Gold",
+      "title": "Giant Simulator Reborn Codes",
+      "subtitle": "Redeem active Giant Simulator Reborn codes for free Gold, then spend it on stronger gear, weapons, loot crates, and early progression.",
+      "intro": "Giant Simulator Reborn codes give players a fast Gold boost before the normal training loop begins. Use the largest Gold rewards first, then enter each code through the white bird button inside the Roblox experience.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "type": "active-code",
+          "code": "Demonking",
+          "reward": "20,000 Gold",
+          "note": "Best first redeem because it gives the largest listed Gold reward."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "type": "active-code",
+          "code": "Pets",
+          "reward": "10,000 Gold",
+          "note": "Useful for early gear, loot crates, and pet-focused progression."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "type": "active-code",
+          "code": "Gianttofuu",
+          "reward": "10,000 Gold",
+          "note": "A strong starter code for faster early upgrades."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "type": "active-code",
+          "code": "Razorfishpets",
+          "reward": "5,000 Gold",
+          "note": "Good mid-sized Gold reward for building your first upgrade fund."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "type": "active-code",
+          "code": "Azadpets",
+          "reward": "2,500 Gold",
+          "note": "Adds extra Gold for early spending decisions."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
+          "type": "active-code",
+          "code": "Planetmilopets",
+          "reward": "2,500 Gold",
+          "note": "Useful when stacking all starter rewards before farming."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
+          "type": "active-code",
+          "code": "Freegold",
+          "reward": "1 Gold",
+          "note": "A tiny bonus code, mainly worth redeeming while clearing the full list."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "type": "summary-card",
+          "title": "Total Active Code Value",
+          "value": "50,001 Gold",
+          "note": "Redeeming every active Gold code gives a large early boost before training, gear upgrades, and pet hatching."
+        },
+        {
+          "type": "expired-code-group",
+          "title": "Expired Codes",
+          "codes": [
+            "Launch",
+            "Battle",
+            "intelplayz",
+            "arena",
+            "miannn",
+            "robzi",
+            "russoplays",
+            "legend",
+            "gravycatman",
+            "Tofuu",
+            "Rebirth",
+            "TenMillion",
+            "NewYear",
+            "Boss",
+            "Valentine",
+            "Balance",
+            "StPatrick",
+            "Clover2020",
+            "SoulFarm",
+            "thank you",
+            "Snowflakes",
+            "GiantNewYear",
+            "Xbox",
+            "Easter2021",
+            "Evolution",
+            "Halloween"
+          ]
+        },
+        {
+          "type": "redeem-step",
+          "step": 1,
+          "title": "Launch the Roblox experience",
+          "text": "Open Giant Simulator: REBORN from its Roblox game page."
+        },
+        {
+          "type": "redeem-step",
+          "step": 2,
+          "title": "Press the white bird button",
+          "text": "Use the bird icon on the right side of the screen to open the code box."
+        },
+        {
+          "type": "redeem-step",
+          "step": 3,
+          "title": "Enter the code",
+          "text": "Paste one code into the text box exactly as written."
+        },
+        {
+          "type": "redeem-step",
+          "step": 4,
+          "title": "Press Enter",
+          "text": "Submit the code to claim the Gold reward."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+    "beginnerGuide": {
+      "eyebrow": "Start Here",
+      "title": "Giant Simulator Reborn Beginner Guide",
+      "subtitle": "Learn the basic loop: click for XP, grow larger, unlock better gear, hatch pets, fight rivals, and prepare for rebirth.",
+      "intro": "Giant Simulator Reborn is built around simple repeated growth. Your first goal is to turn clicks into XP, XP into size, Gold into upgrades, pets into faster progress, and rebirth into stronger long-term scaling.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "step": 1,
+          "title": "Click to gain XP",
+          "goal": "Start growing immediately.",
+          "action": "Click to earn XP and increase your giant size.",
+          "result": "Your character becomes bigger and starts moving through the core progression loop."
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "step": 2,
+          "title": "Redeem starter codes",
+          "goal": "Collect free Gold before spending time farming.",
+          "action": "Use the active codes list and claim the highest Gold rewards first.",
+          "result": "You can begin with a stronger upgrade budget instead of grinding from zero."
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "step": 3,
+          "title": "Upgrade weapons and armor",
+          "goal": "Improve XP gain, damage, and combat strength.",
+          "action": "Spend Gold on better gear and equipment as soon as upgrades become meaningful.",
+          "result": "Your clicks, combat performance, and growth speed improve together."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
+          "step": 4,
+          "title": "Open loot crates",
+          "goal": "Unlock stronger progression tools.",
+          "action": "Use Gold to open loot crates for weapons, skins, and companion-style boosts.",
+          "result": "Better loot gives stronger multipliers and makes future farming smoother."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
+          "step": 5,
+          "title": "Hatch and upgrade pets",
+          "goal": "Add pet growth to your main progression loop.",
+          "action": "Hatch pets, collect better companions, and keep upgrading the pets you use.",
+          "result": "Pets grow with you and support faster long-term progress."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
+          "step": 6,
+          "title": "Fight rivals",
+          "goal": "Test your size, gear, and pet setup.",
+          "action": "Use combat as a checkpoint after upgrading your weapons, armor, and pets.",
+          "result": "You learn whether your build is ready for stronger players and harder goals."
         },
         {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "step": 7,
+          "title": "Prepare for rebirth",
+          "goal": "Move from short-term growth into long-term power.",
+          "action": "Rebirth after you understand your current gear, pet value, and upgrade route.",
+          "result": "Rebirth helps you come back stronger and keep climbing the server leaderboard."
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
+    "levelingAndGoldFarming": {
+      "eyebrow": "Fast Progress",
+      "title": "Giant Simulator Reborn Leveling and Gold Farming Guide",
+      "subtitle": "Use codes, training, gear, pets, and combat checks to level faster and spend Gold with a clear priority.",
+      "intro": "Fast progression in Giant Simulator Reborn comes from stacking the basic systems correctly. Claim Gold codes first, train for XP, invest in weapons and armor, hatch useful pets, and use combat or rebirth goals to decide when your setup needs another upgrade.",
+      "items": [
         {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
+          "title": "Claim Gold Before Farming",
+          "priority": "Highest",
+          "data": "Active codes can provide up to 50,001 Gold.",
+          "action": "Redeem Demonking, Pets, Gianttofuu, Razorfishpets, Azadpets, Planetmilopets, and Freegold before your first long farming session.",
+          "why_it_matters": "Free Gold shortens the weakest early-game phase and lets you buy upgrades sooner."
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
+          "title": "Train for XP",
+          "priority": "Core Loop",
+          "data": "The Roblox game page states that clicking gives XP and makes your giant grow larger.",
+          "action": "Keep training while checking whether your next upgrade gives better growth value.",
+          "why_it_matters": "XP is the base of size progression, and size is the center of the simulator loop."
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
+          "title": "Spend Gold on Gear",
+          "priority": "Early Upgrade",
+          "data": "Gold is used for stronger gear, weapons, loot crates, and equipment progression.",
+          "action": "Buy gear upgrades when they improve XP gain, combat damage, or overall farming speed.",
+          "why_it_matters": "Better weapons and armor make each training and combat cycle more efficient."
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
+          "title": "Use Loot Crates Carefully",
+          "priority": "Gold Sink",
+          "data": "Loot crates can unlock weapons, skins, and companion-style boosts.",
+          "action": "Open crates after claiming free Gold, then compare whether the reward improves your current growth route.",
+          "why_it_matters": "Spending randomly burns Gold; spending around clear upgrades keeps progression cleaner."
         },
         {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
+          "title": "Hatch Pets for Growth Support",
+          "priority": "Scaling",
+          "data": "The Roblox page highlights hatching, collecting, and upgrading pets that grow with the player.",
+          "action": "Add pets after your basic gear path is moving, then keep upgrading the pets you actually use.",
+          "why_it_matters": "Pets support long-term growth instead of giving only one-time power."
+        },
+        {
+          "title": "Use Combat as a Progress Check",
+          "priority": "Checkpoint",
+          "data": "The game loop includes fighting rivals and ruling the server.",
+          "action": "After upgrades, test your strength through combat before deciding whether to farm more Gold or push toward rebirth.",
+          "why_it_matters": "Combat shows whether your XP, gear, and pet setup are keeping pace."
+        },
+        {
+          "title": "Farm Event Currency When Events Are Active",
+          "priority": "Event Route",
+          "data": "Community video coverage highlights Shell farming and Summer Event progression.",
+          "action": "Use event routes when they directly support pets, artifacts, or upgrade goals.",
+          "why_it_matters": "Event resources can be valuable when they feed your actual progression path."
+        },
+        {
+          "title": "Play Manually and Avoid Scripts",
+          "priority": "Rule-Safe",
+          "data": "This guide only covers normal in-game progression.",
+          "action": "Do not use exploit scripts, automation tools, or third-party cheat menus.",
+          "why_it_matters": "Manual progression keeps your Roblox account safe and your growth steady."
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
+    "petsGuide": {
+      "eyebrow": "Pets",
+      "title": "Giant Simulator Reborn Pets Guide",
+      "subtitle": "Pets are part of the main growth loop: hatch them, collect stronger options, upgrade them, and use event pets when available.",
+      "intro": "Pets in Giant Simulator Reborn are not just decoration. The Roblox page highlights hatching, collecting, and upgrading pets that grow with the player, making them a core part of long-term progression alongside gear, weapons, combat, and rebirth.",
+      "items": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "title": "Hatch Pets",
+          "category": "Start",
+          "what_it_does": "Adds companions to your progression setup.",
+          "player_action": "Use the pet system after building an early Gold and gear base.",
+          "best_for": "Beginners who want growth support beyond clicking and gear alone."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "title": "Collect Better Pets",
+          "category": "Progress",
+          "what_it_does": "Builds a stronger pet roster over time.",
+          "player_action": "Keep replacing weak early pets when a stronger option improves your current route.",
+          "best_for": "Players moving from starter growth into longer farming sessions."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "title": "Upgrade Active Pets",
+          "category": "Upgrade",
+          "what_it_does": "Keeps pet value aligned with your growing giant.",
+          "player_action": "Prioritize upgrades for pets you actually use instead of spreading resources across everything.",
+          "best_for": "Players who want cleaner long-term scaling."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "title": "Use Gold Codes Before Pet Spending",
+          "category": "Resource",
+          "what_it_does": "Gives an early Gold pool before committing to pet and gear decisions.",
+          "player_action": "Redeem the active Gold codes before making your first major pet-related spend.",
+          "best_for": "New players trying to avoid slow early farming."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
+          "title": "Watch Event Pets",
+          "category": "Event",
+          "what_it_does": "Event pets can become short-term progression goals during updates.",
+          "player_action": "Check active events and update showcases before spending heavily outside the event route.",
+          "best_for": "Players farming limited-time content such as Summer Event pets."
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
+          "title": "Pair Pets With Gear",
+          "category": "Build",
+          "what_it_does": "Pets work best when they support the same growth plan as weapons, armor, and rebirth goals.",
+          "player_action": "Upgrade gear and pets together instead of treating pets as a separate side system.",
+          "best_for": "Players preparing for stronger combat checks and future rebirths."
         },
         {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Use Pets for Rebirth Preparation",
+          "category": "Rebirth",
+          "what_it_does": "A stronger pet setup helps smooth the path toward the next reset cycle.",
+          "player_action": "Improve your pets before pushing into a rebirth-focused session.",
+          "best_for": "Players who want faster recovery and stronger long-term growth after rebirth."
         }
       ]
     }
@@ -750,31 +378,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Giant Simulator Reborn",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Giant Simulator Reborn?",
+        "answer": "Giant Simulator Reborn is a Roblox giant growth simulator where you click to gain XP, grow larger, unlock weapons and armor, hatch pets, rebirth for permanent scaling, and climb the leaderboards."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "How do I redeem codes in Giant Simulator Reborn?",
+        "answer": "Open Giant Simulator Reborn on Roblox, press the white bird button on the right side of the screen, paste a code into the text box, and press Enter to claim your Gold reward."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "What are pets used for in Giant Simulator Reborn?",
+        "answer": "In Giant Simulator Reborn, pets add a permanent growth multiplier to your training, Gold gain, and combat power, so hatching, collecting, and upgrading them is a core part of long-term progression."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "When should I rebirth in Giant Simulator Reborn?",
+        "answer": "Rebirth in Giant Simulator Reborn once your current run slows down and the next reset will make the following climb faster, because rebirth grants Soul Gems that improve Gold, XP, crit, speed, and weapon output across future runs."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Is Giant Simulator Reborn free to play?",
+        "answer": "Yes. Giant Simulator Reborn is free to play on Roblox. You can launch it directly from the official Roblox game page and start growing your giant right away."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Where can I get new Giant Simulator Reborn codes?",
+        "answer": "New Giant Simulator Reborn codes are shared through the official Mithril Games Discord, the Mithril Games X account, and Roblox community updates, so following those channels keeps your code list current."
       }
     ]
   },
@@ -803,124 +431,124 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Giant Simulator Reborn Guides",
+      "description": "Complete gameplay guides from beginner basics to advanced rebirth, boss, and gold farming strategies.",
+      "metaTitle": "Giant Simulator Reborn Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Giant Simulator Reborn guides covering beginner tips, codes, pets, rebirth, bosses, and gold farming for Roblox players.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, codes, pets, rebirth, and combat strategies. Learn everything from first steps to advanced techniques.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand the growth loop, codes, and pet systems",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven routes to grow, gear up, and rebirth efficiently",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for bosses, PvP, and gold farming"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+      "title": "Giant Simulator Reborn Codes",
+      "description": "Active codes, free Gold rewards, expired codes, and the redeem steps for Giant Simulator Reborn.",
+      "metaTitle": "Giant Simulator Reborn Codes - Free Gold Rewards",
+      "metaDescription": "Redeem active Giant Simulator Reborn codes for free Gold, check expired codes, and learn the redeem steps through the white bird button.",
+      "categoryLabel": "CODES",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Giant Simulator Reborn codes give free Gold and other rewards. Redeem them through the bird button inside the Roblox experience before they expire.",
+      "why": "Why redeem codes?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Free Gold Boost",
+        "step1Description": "Claim thousands of Gold before your first farming session",
+        "step2Title": "Faster Early Upgrades",
+        "step2Description": "Spend free Gold on weapons, armor, and loot crates",
+        "step3Title": "Stay Current",
+        "step3Description": "New codes drop with updates, events, and milestones"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Code Articles"
     },
     "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+      "title": "Giant Simulator Reborn Gear",
+      "description": "Weapons, armor, loot crates, and equipment guides with upgrade priorities for Giant Simulator Reborn.",
+      "metaTitle": "Giant Simulator Reborn Gear - Weapons, Armor & Equipment",
+      "metaDescription": "Complete Giant Simulator Reborn gear guides covering weapons, armor, loot crates, and upgrade priorities for every progression stage.",
+      "categoryLabel": "GEAR & EQUIPMENT",
+      "whatIs": "What is Gear?",
+      "whatIsDescription": "Guides for weapons, armor, loot crates, and equipment. Learn upgrade priorities, stat differences, and the best gear for early, mid, and late game.",
+      "why": "Why check gear guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
+        "step1Title": "Upgrade Priority",
+        "step1Description": "Know which weapons and armor to buy first",
         "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step2Description": "Choose the best gear for your progression stage",
+        "step3Title": "Improve Combat",
+        "step3Description": "Equip the right gear for bosses, PvP, and farming"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Gear"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+      "title": "Giant Simulator Reborn Bosses",
+      "description": "Boss locations, fight strategies, drops, and preparation requirements for Giant Simulator Reborn.",
+      "metaTitle": "Giant Simulator Reborn Bosses - Locations, Drops & Strategy",
+      "metaDescription": "Giant Simulator Reborn boss guides covering Borock, Demon King, the Temple route, drops, damage scaling, and preparation requirements.",
+      "categoryLabel": "BOSSES",
+      "whatIs": "What are Bosses?",
+      "whatIsDescription": "Guides to boss locations, fight mechanics, drops, and the gear and pet preparation needed to clear them efficiently.",
+      "why": "Why fight bosses?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Soul Gems",
+        "step1Description": "Bosses like Demon King are a key Soul Gem source",
+        "step2Title": "Quest Progress",
+        "step2Description": "Boss kills unlock quest points and artifact progress",
+        "step3Title": "Long-Term Power",
+        "step3Description": "Boss damage scales with rebirths and permanent upgrades"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Boss Guides"
     },
     "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+      "title": "Giant Simulator Reborn Rebirth",
+      "description": "Rebirth conditions, Soul Gems spending, reset mechanics, and the permanent growth loop in Giant Simulator Reborn.",
+      "metaTitle": "Giant Simulator Reborn Rebirth - Soul Gems & Reset Guide",
+      "metaDescription": "Master Giant Simulator Reborn rebirth with Soul Gems spending, reset conditions, and the permanent skill upgrades that improve every future run.",
+      "categoryLabel": "REBIRTH",
+      "whatIs": "What is Rebirth?",
+      "whatIsDescription": "Rebirth resets your current run in exchange for Soul Gems, which fund permanent skill upgrades like coin multiplier, EXP gain, double weapons, crit, and speed.",
+      "why": "Why rebirth?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Permanent Scaling",
+        "step1Description": "Soul Gems improve Gold, XP, and combat across runs",
+        "step2Title": "Faster Recovery",
+        "step2Description": "Each new cycle climbs faster than the last",
+        "step3Title": "Boss Readiness",
+        "step3Description": "Long-term power unlocks harder boss routes"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Rebirth Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+      "title": "Giant Simulator Reborn Events",
+      "description": "Limited-time events, event currency, event pets, and update notes for Giant Simulator Reborn.",
+      "metaTitle": "Giant Simulator Reborn Events - Updates & Limited-Time Rewards",
+      "metaDescription": "Track Giant Simulator Reborn events including Summer Event, Shell farming, event pets, event artifacts, and update history.",
+      "categoryLabel": "EVENTS & UPDATES",
+      "whatIs": "What are Events?",
+      "whatIsDescription": "Limited-time events add event currency, event pets, and event artifacts. Use event routes when they feed your progression path before they end.",
+      "why": "Why follow events?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Limited Rewards",
+        "step1Description": "Event pets and artifacts can jump your growth forward",
+        "step2Title": "Event Currency",
+        "step2Description": "Shells and event coins fund exclusive upgrades",
+        "step3Title": "Update Tracking",
+        "step3Description": "Catch new codes, bosses, and rebalance changes early"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Event Articles"
     }
   }
 }
