@@ -22,6 +22,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     YouTubeEmbed,
     FAQ,
     FAQItem,
+    Table: ({ children }) => <>{children}</>,
 
     // 覆盖默认 HTML 元素
     h1: (props) => <h1 className="text-4xl font-bold text-white mb-3" {...props} />,
