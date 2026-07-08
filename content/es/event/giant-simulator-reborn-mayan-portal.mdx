@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Portal Maya de Giant Simulator Reborn: Guía de Farmeo y Renacimiento",
+  description: "Desbloquea los secretos del Portal Maya de Giant Simulator Reborn. Aprende estrategias de jefes, rutas de farmeo y tácticas de renacimiento para maximizar tu progreso.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b58900/fff?text=Mayan+Portal+Guide",
+  date: "2026-07-08",
+  author: "Equipo de la Wiki de giant simulator reborn"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo Principal**: Acceder al **portal maya de giant simulator reborn** alcanzando el nivel cinco de Renacimiento y reuniendo 500,000 de Oro.
+- **Estrategia de Jefe**: Derrotar al jefe Guardián Maya para obtener armas de alto nivel, reliquias antiguas y llaves doradas.
+- **Eficiencia de Farmeo**: Utilizar la zona del Templo Maya para optimizar tus tasas de acumulación de PE (XP) y oro.
+- **Optimización de Renacimiento**: Aprovechar los multiplicadores específicos de la zona para acelerar los ciclos de progresión de tu personaje.
+- **Botín Exclusivo**: Recolectar Fragmentos de Piedra Solar y abrir cofres dorados para adquirir objetos cosméticos y mascotas poco comunes.
+</Callout>
+
+<Section icon={Map} title="Desbloquear el Portal Maya de Giant Simulator Reborn">
+
+El Portal Maya sirve como una puerta de acceso fundamental para los jugadores de juego medio y tardío que buscan acelerar su progresión. Ubicado en el sector oriental del área del nexo principal, este arco de piedra antiguo transporta a los jugadores a una civilización olvidada llena de enemigos de alto nivel, cofres de tesoro exclusivos y jefes poderosos. Acceder a esta zona requiere cumplir con ciertos hitos, lo que la convierte en un objetivo principal para los jugadores que buscan optimizar su eficiencia de renacimiento en 2026.
+
+Históricamente, el portal permaneció sellado detrás de magia antigua, pero las actualizaciones recientes han simplificado el proceso de desbloqueo. Para despejar la barrera, los jugadores deben demostrar su fuerza adquiriendo un objeto clave específico y cumpliendo con los umbrales de nivel. 
+
+<Callout type="warning" title="Requisitos Mínimos">
+Antes de intentar entrar al portal, asegúrate de que tu personaje haya completado al menos cinco renacimientos. Entrar demasiado pronto puede resultar en derrotas rápidas por parte de los agresivos guardianes del templo que patrullan la zona.
+</Callout>
+
+| Requisito | Valor | Descripción |
+|---|---|---|
+| Nivel de Renacimiento | 5 Renacimientos | Umbral mínimo para desbloquear la puerta del portal |
+| Costo de Oro | 500,000 de Oro | Tarifa requerida para despejar la barrera antigua |
+| Nivel Recomendado | Nivel 150+ | Necesario para sobrevivir a los ataques de enemigos básicos |
+| Objeto Clave | Sigilo Maya | Soltado por los jefes del nexo a una tasa moderada |
+
+Una vez que se cumplan estos requisitos, podrás interactuar con el arco de piedra antiguo. Insertar el Sigilo Maya abrirá el portal para tu personaje, permitiendo el viaje sin restricciones entre el nexo y las ruinas mayas. Esta área es muy disputada, por lo que se recomienda jugar en un servidor privado o agruparse con miembros del gremio para asegurar los mejores puntos de farmeo sin la interferencia de jugadores hostiles.
+
+</Section>
+
+<Section icon={Swords} title="Enemigos del Templo Maya y Guías de Jefes">
+
+El interior del Templo Maya está dividido en tres cámaras principales: el Patio Exterior, el Santuario Interior y la Cámara del Jefe. Cada área presenta enemigos distintos que escalan en dificultad. El objetivo principal para la mayoría de los jugadores que visitan esta zona es derrotar al Guardián Maya, un jefe masivo que suelta botín raro y grandes cantidades de oro.
+
+Comprender el comportamiento de cada tipo de enemigo es crucial para mantener tu eficiencia de farmeo. Las criaturas de esta zona infligen significativamente más daño que las de las áreas de inicio, lo que requiere que los jugadores adopten estrategias activas de esquiva y kiting (atracción).
+
+<Callout type="tip" title="Estrategia de Combate">
+El Guardián Maya utiliza un ataque de golpe contra el suelo que inflige daño de área de efecto. Presta atención al indicador de círculo rojo en el suelo y salta o deslízate hacia atrás inmediatamente para evitar recibir daño letal.
+</Callout>
+
+| Nombre del Enemigo | Salud | Rendimiento de PE | Botines Clave |
+|---|---|---|---|
+| Centinela del Templo | 50,000 | 1,200 | Moneda de Bronce Antigua |
+| Sacerdote Maya | 120,000 | 3,500 | Fragmento de Piedra Solar |
+| Guardián Maya | 1,500,000 | 25,000 | Espadón Maya, Llave Dorada |
+
+<CardGrid cols={3}>
+  <Card title="Estrategia de Farmeo en Solitario">
+    - **Enfócate en los Centinelas** para obtener PE constante
+    - Mantén tu distancia usando armas a distancia
+    - Usa aumentos de velocidad para evadir enemigos
+  </Card>
+  <Card title="Estrategia de Asalto al Jefe">
+    - **Forma un grupo** para compartir la agresividad (agro) del jefe
+    - Alterna habilidades defensivas durante los golpes contra el suelo
+    - Equipa mascotas que aumenten el daño para mayor velocidad
+  </Card>
+  <Card title="Estrategia de Farmeo de Oro">
+    - **Céntrate en los Sacerdotes Mayas** para obtener gran cantidad de monedas
+    - Equipa reliquias que mejoren la suerte antes del combate
+    - Limpia las cámaras sistemáticamente para maximizar las apariciones
+  </Card>
+</CardGrid>
+
+Derrotar al Guardián Maya requiere coordinación y una alta producción de daño. El jefe tiene un temporizador de reaparición de cinco minutos, lo que hace muy eficiente alternar entre limpiar a los Centinelas del Templo en el Patio Exterior y regresar a la Cámara del Jefe justo cuando el guardián reaparece. Usar armas de gran alcance, como espadones o alabardas, te permite golpear al jefe mientras permaneces fuera de su rango de ataque cuerpo a cuerpo inmediato.
+
+</Section>
+
+<Section icon={Sparkles} title="Pasos de Progresión y Farmeo de Renacimiento">
+
+El renacimiento es la mecánica principal para aumentar tu límite de poder en Giant Simulator. La zona maya ofrece uno de los bucles más eficientes para recolectar los PE y el oro necesarios para activar los siguientes renacimientos rápidamente. Al optimizar tu ruta a través del portal, puedes reducir el tiempo requerido por ciclo de renacimiento hasta en un cuarenta por ciento.
+
+A medida que avanzas a números de renacimiento más altos, el costo de cada renacimiento subsiguiente aumenta. Para combatir esta escalada, los jugadores deben mejorar constantemente sus armas y mascotas. El Portal Maya sigue siendo la ubicación principal para farmear estas mejoras hasta que alcances las dimensiones cósmicas del juego tardío.
+
+<Callout type="success" title="Potenciador de Renacimiento">
+Se recomienda encarecidamente realizar tus renacimientos dentro del Templo Maya. La zona proporciona un multiplicador pasivo de PE del diez por ciento a todas las acciones completadas dentro de sus límites.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Despejar el Patio Exterior">
+    Derrota a los Centinelas del Templo que custodian la entrada para acumular rápidamente tu medidor de combo inicial y asegurar botines básicos de oro.
+  </Step>
+  <Step num="2" title="Recolectar los Fragmentos de Piedra Solar">
+    Localiza y derrota a los Sacerdotes Mayas en los pasillos laterales para recolectar Fragmentos de Piedra Solar, que aumentan temporalmente tu daño.
+  </Step>
+  <Step num="3" title="Enfrentar al Guardián Maya">
+    Entra en la cámara central y derrota al jefe. Usa tus habilidades de alto daño cuando el jefe esté bloqueado en la animación de recuperación tras un golpe contra el suelo.
+  </Step>
+  <Step num="4" title="Activar el Renacimiento y Repetir">
+    Una vez que tus barras de oro y PE estén llenas, inicia tu renacimiento de inmediato para asegurar la bonificación de zona y reiniciar el ciclo.
+  </Step>
+</Steps>
+
+| Nombre de la Zona | Multiplicador de PE Base | Tasa de Rendimiento de Oro | Calificación de Velocidad de Renacimiento |
+|---|---|---|---|
+| Nexo Inicial | 1.0x | Bajo | 2/5 Estrellas |
+| Páramo del Desierto | 1.5x | Medio | 3/5 Estrellas |
+| Templo Maya | 2.5x | Alto | 5/5 Estrellas |
+
+Asegúrate de coordinar tus sesiones de farmeo con eventos de doble PE en todo el servidor para maximizar tus ganancias. Combinar la bonificación pasiva de la zona con los multiplicadores de eventos permite a los jugadores completar múltiples renacimientos en una sola sesión.
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Control de Cofres Mayas y Botín Exclusivo">
+
+Más allá del combate y el farmeo de experiencia, las ruinas mayas contienen cofres de tesoro ocultos que requieren llaves específicas para abrirse. Estos cofres contienen objetos cosméticos exclusivos, aspectos de armas de alto nivel y mascotas raras que no se pueden obtener en ningún otro lugar del juego. Saber dónde aparecen estos cofres y cómo asegurar las llaves es vital para los coleccionistas.
+
+Crear reliquias a partir de Fragmentos de Piedra Solar es una forma confiable de mejorar las estadísticas de tu personaje de forma permanente. Estas reliquias encajan en ranuras de equipamiento dedicadas y proporcionan bonificaciones pasivas como mayor velocidad de movimiento, mayores probabilidades de golpe crítico o más oro por eliminación. Enfócate en reunir estos fragmentos durante tus recorridos diarios para asegurar que tu personaje siga siendo competitivo.
+
+<Callout type="info" title="Tiempos de Aparición de Cofres">
+Los Cofres Mayas Dorados aparecen en los nichos ocultos detrás de los pilares principales del templo. Mantente atento al chat del servidor para los anuncios de aparición.
+</Callout>
+
+<Checklist
+  id="mayan-loot-goals"
+  title="Lista de Control de Finalización de la Zona Maya:"
+  items={[
+    "Adquirir el Espadón Maya del jefe Guardián",
+    "Desbloquear tres Cofres Mayas Dorados usando Llaves Doradas",
+    "Recolectar cincuenta Fragmentos de Piedra Solar para la creación de reliquias",
+    "Alcanzar el nivel quince de Renacimiento usando la ruta de farmeo del templo",
+    "Obtener la mascota mítica Jaguar Maya del huevo de la zona"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+Navegar por las ruinas antiguas puede ser un desafío para los jugadores más nuevos. A continuación se presentan las respuestas a las preguntas más comunes sobre las mecánicas del portal, los encuentros con jefes y las estrategias de botín para ayudarte a conquistar esta desafiante zona.
+
+<Callout type="tip" title="Soporte de la Wiki">
+Si encuentras algún error o necesitas asistencia en tiempo real, únete al servidor oficial de Discord de la comunidad para conectarte con otros jugadores y desarrolladores.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo el portal maya de giant simulator reborn?",
+    answer: "Debes alcanzar el nivel cinco de Renacimiento, recolectar 500,000 de Oro y obtener un Sigilo Maya de los jefes del nexo para desbloquear la puerta del portal."
+  },
+  {
+    question: "¿Cuál es el tiempo de reaparición del jefe Guardián Maya?",
+    answer: "El jefe Guardián Maya reaparece exactamente cinco minutos después de ser derrotado. Los jugadores pueden farmear a los enemigos de los alrededores mientras esperan."
+  },
+  {
+    question: "¿Puedo comerciar las armas obtenidas en el Templo Maya?",
+    answer: "Sí, las armas como el Espadón Maya se pueden comerciar con otros jugadores, lo que las convierte en mercancías valiosas en el mercado."
+  },
+  {
+    question: "¿Hay áreas secretas dentro de la zona del Portal Maya?",
+    answer: "Sí, hay nichos ocultos ubicados detrás de los pilares principales del templo donde los Cofres Mayas Dorados aparecen periódicamente."
+  }
+]} />
+
+</Section>
